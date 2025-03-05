@@ -1027,21 +1027,18 @@ function bodyWaypoints() {
         element: document.getElementById('1.2'),
         handler: function (direction) {
             if (direction == 'down') {
-                filterOpacity(mapBody, 'land_grant');
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.7);
                 timelineYear = findConfigValue('1.2', 'timeline_year');
                 changeTimelineYear(timelineYear);
                 mapBody.flyTo({
                     center: isMobile
-                        ? [-87.62954280979011, 41.812252875663404]
-                        : [-87.73, 41.81],
-                    zoom: isMobile ? 10 : 10.6,
+                        ? [-87.599672, 41.789588]
+                        : [-87.602, 41.789588],
+                    zoom: isMobile ? 15.5 : 16,
                     duration: zoomSpeed
                 });
             } else {
                 updateLayers(1895);
-                filterOpacity(mapBody, 'land_grant', true);
-                filterOpacity(mapBody, 'layer1895', false);
             }
         },
         offset: '50%'
