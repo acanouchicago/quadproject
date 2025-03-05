@@ -977,7 +977,7 @@ function bodyWaypoints() {
             if (direction == 'down') {
             } else {
                 mapBody.flyTo({
-                    center: ChiLocation,
+                    center: UchiLocation,
                     zoom: 12,
                     duration: zoomSpeed
                 });
