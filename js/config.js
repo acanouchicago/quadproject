@@ -1,6 +1,6 @@
 const config = [
     {
-        chapterTitle: '1890-1933: Neo-Gothic Beginnings',
+        chapterTitle: '1890-1933: Designing the Quadrangles',
         chapterYears: '1890-1933',
         id: '1',
         image: './static/images/chapter1.jpg',
