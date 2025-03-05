@@ -1028,12 +1028,15 @@ function bodyWaypoints() {
         handler: function (direction) {
             if (direction == 'down') {
                 filterOpacity(mapBody, 'land_grant');
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.7);
                 timelineYear = findConfigValue('1.2', 'timeline_year');
                 changeTimelineYear(timelineYear);
                 mapBody.flyTo({
-                    center: isMobile ? uChiLocationMobile : uChiLocationSide,
-                    zoom: isMobile ? 14 : 14.5,
-                    duration: 7000
+                    center: isMobile
+                        ? [-87.62954280979011, 41.812252875663404]
+                        : [-87.73, 41.81],
+                    zoom: isMobile ? 10 : 10.6,
+                    duration: zoomSpeed
                 });
             } else {
                 updateLayers(1895);
