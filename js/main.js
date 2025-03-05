@@ -401,6 +401,28 @@ function createOtherGeoms(map) {
 
 function createOverlayMapLayers(map) {
     // add all image overlay
+    // original architecture
+        map.addSource('1901_Simonds_plan', {
+        type: 'image',
+        url: './static/images/1901-Simonds-Plan.png',
+        coordinates: [
+            [-87.601922, 41.791533],
+            [-87.597836, 41.791573],
+            [-87.597729, 41.791573],
+            [-87.601886, 41.787644]
+        ]
+    });
+
+    map.addLayer({
+        id: '1901_Simonds_plan',
+        type: 'raster',
+        source: '1901_Simonds_plan',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
     // urban renewal 1955
     map.addSource('south_campus_plan', {
         type: 'image',
