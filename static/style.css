@@ -186,38 +186,6 @@ input[type='range'] {
     flex: 3;
 }
 
-#timeline-container {
-    position: absolute;
-    box-sizing: border-box;
-    z-index: 3;
-    left: 10px;
-    vertical-align: middle;
-    visibility: visible;
-}
-.timeline-inner {
-    font-family: Playfair Display;
-    background-color: black;
-    width: 70px;
-    height: 90%;
-
-    border-radius: 5px;
-    margin-block: 10px;
-    left: 10px;
-    padding: 10px;
-    vertical-align: middle;
-    align-content: center;
-}
-
-.timeline-text {
-    color: #606060;
-    font-size: medium;
-}
-
-#timeline-0 {
-    color: white;
-    font-size: x-large;
-}
-
 #map-body {
     height: 100%;
     margin: 0;
