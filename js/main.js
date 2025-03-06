@@ -1034,10 +1034,11 @@ function bodyWaypoints() {
                     center: isMobile
                         ? [-87.599672, 41.789588]
                         : [-87.602, 41.789588],
-                    zoom: isMobile ? 15.5 : 16,
+                    zoom: isMobile ? 16 : 16.5,
                     duration: zoomSpeed
                 });
             } else {
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
                 updateLayers(1895);
             }
         },
