@@ -177,117 +177,18 @@
             <div class="map-container-body">
                 <div id="map-overlay-menu">
                     <div class="map-overlay-inner">
-                        <h4>Explore the University of Chicago's Property</h4>
+                        <h4>Bibliography</h4>
                         <p class="menu-subtext">
-                            Use the slider to explore the University of
-                            Chicago's property ownership in and around Hyde Park
-                            from its inception in 1890 to 2025.
+                            {insert bibliography here!!!!!!}
                         </p>
                         <p>
-                            <b>Selected Year</b>:
-                            <span id="slider-year">2025</span>
-                        </p>
-                        <div id="slider-container">
-                            <span class="slider-label"><b>1890</b></span>
-                            <input
-                                type="range"
-                                min="1890"
-                                max="2025"
-                                value="2025"
-                                class="slider"
-                                id="map-slider"
-                            />
-                            <span class="slider-label"><b>2025</b></span>
                         </div>
                         <hr />
                         <p class="menu-subtext">
                             <i
-                                >Editor’s note, February 28, 2025: This article
-                                has been updated to include University comments
-                                on the acquisition and opening of the Woodlawn
-                                Charter School campus. The map was also updated
-                                to reflect that three buildings previously owned
-                                by the University have been sold.</i
+                                >This project is based on an interactive map articled published by the Chicago Maroon in 2025 covering the University of Chicago's historical property ownership on and around campus. That project is open-source, and this project uses the same code as that one.</i
                             >
                         </p>
-                        <div id="methodology">
-                            <span class="collapse-arrow active">&#9656;</span>
-                            <a
-                                data-toggle="collapse"
-                                href="#methodology-text"
-                                aria-expanded="false"
-                                aria-controls="collapseExample"
-                                role="button"
-                                id="methodology-link"
-                                >Read about our Methodology</a
-                            >
-                            <div class="collapse" id="methodology-text">
-                                <div class="card card-body">
-                                    <p>
-                                        This project drew data from several
-                                        sources, including official University
-                                        publications,
-                                        <a
-                                            href="https://www.lib.uchicago.edu/collex/exhibits/mapping-history/digital-map-archives/"
-                                            target="_blank"
-                                            >campus maps</a
-                                        >, municipal records, satellite imagery,
-                                        the University of Chicago Map
-                                        Collection, and news articles. The
-                                        <i>Maroon</i> requested a manipulable
-                                        version of the campus maps which the
-                                        University did not provide. Most
-                                        building footprints were obtained from
-                                        <a href="https://www.openstreetmap.org"
-                                            >OpenStreetMap</a
-                                        >, a crowdsourced geospatial data
-                                        repository; some historic building
-                                        footprints were recreated from historic
-                                        maps using
-                                        <a
-                                            href="https://felt.com/"
-                                            target="_blank"
-                                            >Felt</a
-                                        >. Many dates of building ownership were
-                                        sourced from the
-                                        <a
-                                            href="https://facilities.uchicago.edu/about/uchicago_heritage_map/"
-                                            >University of Chicago Heritage
-                                            Map</a
-                                        >, opening announcements, and University
-                                        press releases. Maps are sourced from
-                                        the University of Chicago Map
-                                        Collection, the University of Chicago
-                                        Photographic Archive, and include
-                                        <i
-                                            ><a
-                                                href="https://collections.carli.illinois.edu/digital/collection/nby_chicago/id/3202/"
-                                                target="_blank"
-                                                >Racial Restrictive Covenants on
-                                                Chicago's South Side in 1947</a
-                                            ></i
-                                        >.
-                                    </p>
-                                    <p>
-                                        All of the <i>Maroon</i>'s data projects
-                                        are open source.
-                                        <a
-                                            href="https://drive.google.com/file/d/1t-CpRbRz2y6agNVx4Wt54QN--H-mhRzl/view"
-                                            >Click here to access the data</a
-                                        >
-                                        for this project, including building
-                                        footprints and additional building
-                                        markers. Find this project's full data
-                                        management and visualization code
-                                        <a
-                                            href="https://github.com/chicagomaroon/data-visualizations/tree/main/2025/uchicago-property"
-                                            >on GitHub here</a
-                                        >. Please reach out to
-                                        data@chicagomaroon.com with any
-                                        corrections or questions.
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -302,16 +203,6 @@
                         <div class="timeline-text" id="timeline+2">1892</div>
                         <div class="timeline-text" id="timeline+3">1893</div>
                     </div>
-                </div>
-                <div id="explore-nav">
-                    <button
-                        id="explore-button"
-                        onclick="exploreMap()"
-                        data-active="Story"
-                    >
-                        Explore Map
-                    </button>
-                </div>
                 <div id="highlight-layer"></div>
 
                 <figure id="map-body"></figure>
