@@ -26,7 +26,7 @@ const nav = new maplibregl.NavigationControl();
 
 let flashingInterval = '';
 
-// hihglight ids
+// highlight ids
 const ids_1_3 = ['157655073', '156128082'];
 const ids_gothic = ['1953426', '151173253'];
 const ids_dorms = ['153266965', '2087203', '10657061', '11687839'];
@@ -402,7 +402,7 @@ function createOtherGeoms(map) {
 function createOverlayMapLayers(map) {
     // add all image overlay
     // original architecture
-        map.addSource('1901_Simonds_plan', {
+    map.addSource('1901_Simonds_plan', {
         type: 'image',
         url: './static/images/1901-Simonds-Plan.png',
         coordinates: [
@@ -1034,7 +1034,7 @@ function bodyWaypoints() {
                     center: isMobile
                         ? [-87.599672, 41.789588]
                         : [-87.602, 41.789588],
-                    zoom: isMobile ? 16 : 16.5,
+                    zoom: isMobile ? 15.5 : 16,
                     duration: zoomSpeed
                 });
             } else {
