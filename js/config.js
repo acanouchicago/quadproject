@@ -234,11 +234,7 @@ const config = [
                 The University also invested in cultural development throughout the South Side through a partnership with the Hyde Park Arts Center, stewarding the Washington Park <a href = 'https://news.uchicago.edu/story/arts-lawn-community-centered-space-washington-park-celebrates-opening' target = "_blank">Arts Block</a> and opening the <a href = 'https://news.uchicago.edu/story/uchicago-opens-green-line-performing-arts-center-washington-park' target = "_blank">Green Line Performing Arts Center</a> in 2018.`,
                 image: './static/images/arts_block.jpg',
                 image_credit: 'Visual Manifesto'
-            }
-        ]
-    },
-    {
-        subsections: [
+            },
             {
                 id: 'final-scroller',
                 text: ``
