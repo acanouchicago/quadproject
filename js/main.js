@@ -697,7 +697,7 @@ function filterOpacity(map, layer, show = true, opacity_max = 0.6) {
 function createMap(div, type, startCoords = uChiLocation, zoomStart = 17) {
     let map = new maplibregl.Map({
         container: div,
-        style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json', // stylesheet locatio
+        style: 'mapbox://styles/acano2028/cm6muc87300mr01s9dfj01rvz', // stylesheet locatio
         center: startCoords, // starting position [lng, lat]
         zoom: zoomStart, // starting zoom
         scrollZoom: false,
@@ -707,6 +707,7 @@ function createMap(div, type, startCoords = uChiLocation, zoomStart = 17) {
         pitchWithRotate: false,
         dragRotate: false,
         touchZoomRotate: false
+        accessToken: 'pk.eyJ1IjoiYWNhbm8yMDI4IiwiYSI6ImNtNm11NTBudjBhNW8yanEwajM2Y2dldnAifQ.NoH-nmCEUqKOB2g5M7QsIg'
     });
 
     map.on('load', () => {
