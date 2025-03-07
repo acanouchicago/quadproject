@@ -933,7 +933,7 @@ function introWaypoints() {
                 filterOpacity(mapIntro, 'startLayer', true);
 
                 mapIntro.flyTo({
-                    center: uChiLocation,
+                    center: hydeParkLocation,
                     zoom: 15.5,
                     duration: zoomSpeed
                 });
@@ -957,7 +957,7 @@ function introWaypoints() {
             filterOpacity(mapIntro, 'endLayer', true);
 
             mapIntro.flyTo({
-                center: isMobile ? [-87.597, 41.795] : hydeParkLocation,
+                center: isMobile ? [-87.597, 41.795] : uChiLocation,
                 zoom: isMobile ? 13.3 : 13.5,
                 duration: 6000
             });
