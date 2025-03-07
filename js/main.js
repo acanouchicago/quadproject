@@ -1,5 +1,5 @@
 // ------------------ DATA ------------------
-dataPath = 'data/properties.geojson';
+dataPath = 'data/quad-buildings.geojson';
 otherPath = 'data/other_geoms.geojson';
 let config = [];
 
@@ -90,7 +90,7 @@ function highlightPopup(ids, layer = null) {
 
     // Filter features based on ID
     const selectedFeatures = features.filter((feature) =>
-        ids.includes(feature.properties.id)
+        ids.includes(feature.quad-buildings.id)
     );
 
     // Show popup for each selected feature
@@ -99,19 +99,19 @@ function highlightPopup(ids, layer = null) {
             "<div class='popup'>" +
             "<div class = 'popup-label'>BUILDING NAME</div>" +
             '<h6>' +
-            feature.properties.name +
+            feature.quad-buildings.name +
             '</h6>' +
             "<div class = 'popup-label'>YEAR BUILT</div>" +
             '<h6>' +
-            feature.properties.year_start +
+            feature.quad-buildings.year_start +
             '</h6>' +
             '</div>';
 
-        const coordinates = [feature.properties.lon, feature.properties.lat];
+        const coordinates = [feature.quad-buildings.lon, feature.quad-buildings.lat];
         // hacky way to fix dorm popup overlap
-        if (['153266965', '2087203'].includes(feature.properties.id)) {
+        if (['153266965', '2087203'].includes(feature.quad-buildings.id)) {
             anchor = 'right';
-        } else if (['10657061', '11687839'].includes(feature.properties.id)) {
+        } else if (['10657061', '11687839'].includes(feature.quad-buildings.id)) {
             anchor = 'left';
         } else {
             anchor = 'top';
@@ -337,67 +337,6 @@ function createOtherGeoms(map) {
         },
         filter: ['==', ['get', 'name'], 'og_land_grant']
     });
-
-    // shuttles
-    map.addLayer({
-        id: 'shuttles',
-        type: 'line',
-        source: 'other',
-        layout: {},
-        paint: {
-            // line color based on color attribute
-            'line-color': [
-                'case',
-                ['==', ['get', 'color'], 'BLUE'],
-                '#31C8F1',
-                ['==', ['get', 'color'], 'GREEN'],
-                '#86E23C',
-                ['==', ['get', 'color'], 'DARK GREEN'],
-                '#306024',
-                ['==', ['get', 'color'], 'RED'],
-                '#E13736',
-                ['==', ['get', 'color'], 'PURPLE'],
-                '#9233B6',
-                ['==', ['get', 'color'], 'YELLOW'],
-                '#EAD946',
-                ['==', ['get', 'color'], 'ORANGE'],
-                '#EE9D21',
-                ['==', ['get', 'color'], 'PINK'],
-                '#ED61BE',
-                'black'
-            ],
-            'line-width': 5,
-            'line-opacity': 0
-        },
-        filter: ['==', ['get', 'shuttle'], '1']
-    });
-
-    // police
-    map.addLayer({
-        id: 'ucpd_bounds_2024_line',
-        type: 'line',
-        source: 'other',
-        layout: {},
-        paint: {
-            'line-color': 'black',
-            'line-width': 2,
-            'line-opacity': 0
-        },
-        filter: ['==', ['get', 'name'], 'Patrol Area']
-    });
-
-    map.addLayer({
-        id: 'ucpd_bounds_2024_fill',
-        type: 'fill',
-        source: 'other',
-        layout: {},
-        paint: {
-            'fill-color': 'black',
-            'fill-opacity': 0
-        },
-        filter: ['==', ['get', 'name'], 'Patrol Area']
-    });
-}
 
 function createOverlayMapLayers(map) {
     // add all image overlay
@@ -751,11 +690,11 @@ function popupStuff(map_name) {
                     "<div class='popup'>" +
                     "<div class = 'popup-label'>BUILDING NAME</div>" +
                     '<h6>' +
-                    e.features[0].properties.name +
+                    e.features[0].quad-buildings.name +
                     '</h6>' +
                     "<div class = 'popup-label'> YEAR BUILT</div>" +
                     '<h6>' +
-                    e.features[0].properties.year_start +
+                    e.features[0].quad-buildings.year_start +
                     '</h6>' +
                     '</div>';
 
@@ -1437,19 +1376,6 @@ function bodyWaypoints() {
                     'raster-opacity',
                     0.8
                 );
-            }
-        },
-        offset: '50%'
-    });
-
-    new Waypoint({
-        element: document.getElementById('4.2'),
-        handler: function (direction) {
-            if (direction == 'down') {
-                // show
-                mapBody.setPaintProperty('shuttles', 'line-opacity', 0.6);
-            } else {
-                mapBody.setPaintProperty('shuttles', 'line-opacity', 0);
             }
         },
         offset: '50%'
