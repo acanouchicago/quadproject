@@ -1675,7 +1675,7 @@ function bodyWaypoints() {
                 removePopups();
 
                 yearSlider = document.getElementById('map-overlay-menu');
-                yearSlider.style.visibility = 'hidden';
+                yearSlider.style.visibility = 'visible';
                 fadeInLayer(yearSlider, 0, 1, 0.01, 4);
 
                 // enable popups
@@ -1699,7 +1699,7 @@ function bodyWaypoints() {
 
                 timeline = document.getElementById('timeline-container');
                 timeline.style.opacity = '0';
-                timeline.style.visibility = 'visible';
+                timeline.style.visibility = 'hidden';
                 fadeInLayer(timeline, 0, 1, 0.01, 3);
                 removePopups();
 
