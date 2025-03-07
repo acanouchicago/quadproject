@@ -1782,7 +1782,7 @@ function init() {
     intro = document.querySelector('#intro');
     fadeInLayer(intro, 0, 1, 0.002, 3);
 
-    // create waypoints
+    // create waypointss
     waypoints();
 }
 
