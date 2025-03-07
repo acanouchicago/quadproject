@@ -1,5 +1,5 @@
 // ------------------ DATA ------------------
-dataPath = 'data/quad_buildings.geojson';
+dataPath = 'data/properties.geojson';
 otherPath = 'data/other_geoms.geojson';
 let config = [];
 
@@ -90,7 +90,7 @@ function highlightPopup(ids, layer = null) {
 
     // Filter features based on ID
     const selectedFeatures = features.filter((feature) =>
-        ids.includes(feature.quad_buildings.id)
+        ids.includes(feature.properties.id)
     );
 
     // Show popup for each selected feature
@@ -99,19 +99,19 @@ function highlightPopup(ids, layer = null) {
             "<div class='popup'>" +
             "<div class = 'popup-label'>BUILDING NAME</div>" +
             '<h6>' +
-            feature.quad_buildings.name +
+            feature.properties.name +
             '</h6>' +
             "<div class = 'popup-label'>YEAR BUILT</div>" +
             '<h6>' +
-            feature.quad_buildings.year_start +
+            feature.properties.year_start +
             '</h6>' +
             '</div>';
 
-        const coordinates = [feature.quad_buildings.lon, feature.quad_buildings.lat];
+        const coordinates = [feature.properties.lon, feature.properties.lat];
         // hacky way to fix dorm popup overlap
-        if (['153266965', '2087203'].includes(feature.quad_buildings.id)) {
+        if (['153266965', '2087203'].includes(feature.properties.id)) {
             anchor = 'right';
-        } else if (['10657061', '11687839'].includes(feature.quad_buildings.id)) {
+        } else if (['10657061', '11687839'].includes(feature.properties.id)) {
             anchor = 'left';
         } else {
             anchor = 'top';
@@ -751,11 +751,11 @@ function popupStuff(map_name) {
                     "<div class='popup'>" +
                     "<div class = 'popup-label'>BUILDING NAME</div>" +
                     '<h6>' +
-                    e.features[0].quad_buildings.name +
+                    e.features[0].properties.name +
                     '</h6>' +
                     "<div class = 'popup-label'> YEAR BUILT</div>" +
                     '<h6>' +
-                    e.features[0].quad_buildings.year_start +
+                    e.features[0].properties.year_start +
                     '</h6>' +
                     '</div>';
 
