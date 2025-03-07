@@ -1653,7 +1653,6 @@ function bodyWaypoints() {
         offset: '50%'
     });
 
-
     new Waypoint({
         element: document.getElementById('final-scroller'),
         handler: function (direction) {
