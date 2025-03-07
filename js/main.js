@@ -1049,6 +1049,11 @@ function bodyWaypoints() {
         element: document.getElementById('1.3'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty(
+                    '1901_Simonds_plan',
+                    'raster-opacity',
+                    0
+                );
                 removePopups();
                 filterOpacity(mapBody, 'land_grant', false);
                 updateLayers(1895);
