@@ -338,6 +338,67 @@ function createOtherGeoms(map) {
         filter: ['==', ['get', 'name'], 'og_land_grant']
     });
 
+    // shuttles
+    map.addLayer({
+        id: 'shuttles',
+        type: 'line',
+        source: 'other',
+        layout: {},
+        paint: {
+            // line color based on color attribute
+            'line-color': [
+                'case',
+                ['==', ['get', 'color'], 'BLUE'],
+                '#31C8F1',
+                ['==', ['get', 'color'], 'GREEN'],
+                '#86E23C',
+                ['==', ['get', 'color'], 'DARK GREEN'],
+                '#306024',
+                ['==', ['get', 'color'], 'RED'],
+                '#E13736',
+                ['==', ['get', 'color'], 'PURPLE'],
+                '#9233B6',
+                ['==', ['get', 'color'], 'YELLOW'],
+                '#EAD946',
+                ['==', ['get', 'color'], 'ORANGE'],
+                '#EE9D21',
+                ['==', ['get', 'color'], 'PINK'],
+                '#ED61BE',
+                'black'
+            ],
+            'line-width': 5,
+            'line-opacity': 0
+        },
+        filter: ['==', ['get', 'shuttle'], '1']
+    });
+
+    // police
+    map.addLayer({
+        id: 'ucpd_bounds_2024_line',
+        type: 'line',
+        source: 'other',
+        layout: {},
+        paint: {
+            'line-color': 'black',
+            'line-width': 2,
+            'line-opacity': 0
+        },
+        filter: ['==', ['get', 'name'], 'Patrol Area']
+    });
+
+    map.addLayer({
+        id: 'ucpd_bounds_2024_fill',
+        type: 'fill',
+        source: 'other',
+        layout: {},
+        paint: {
+            'fill-color': 'black',
+            'fill-opacity': 0
+        },
+        filter: ['==', ['get', 'name'], 'Patrol Area']
+    });
+}
+
 function createOverlayMapLayers(map) {
     // add all image overlay
     // original architecture
@@ -1376,6 +1437,19 @@ function bodyWaypoints() {
                     'raster-opacity',
                     0.8
                 );
+            }
+        },
+        offset: '50%'
+    });
+
+    new Waypoint({
+        element: document.getElementById('4.2'),
+        handler: function (direction) {
+            if (direction == 'down') {
+                // show
+                mapBody.setPaintProperty('shuttles', 'line-opacity', 0.6);
+            } else {
+                mapBody.setPaintProperty('shuttles', 'line-opacity', 0);
             }
         },
         offset: '50%'
