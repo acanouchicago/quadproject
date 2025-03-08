@@ -934,7 +934,7 @@ function introWaypoints() {
 
                 mapIntro.flyTo({
                     center: uchiLocation,
-                    zoom: 17,
+                    zoom: 50,
                     duration: zoomSpeed
                 });
                 fadeInLayer(
