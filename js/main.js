@@ -694,7 +694,7 @@ function filterOpacity(map, layer, show = true, opacity_max = 0.6) {
     map.setPaintProperty(layer, 'fill-opacity', opacity);
 }
 
-function createMap(div, type, startCoords = uChiLocation, zoomStart = -5) {
+function createMap(div, type, startCoords = uChiLocation, zoomStart = 12) {
     let map = new maplibregl.Map({
         container: div,
         style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json', // stylesheet locatio
@@ -1759,7 +1759,7 @@ function init() {
     quoteOnlyCredit.style.margin = 0;
 
     // create maps
-    mapIntro = createMap('map-intro', 'intro', uChiLocation, 16);
+    mapIntro = createMap('map-intro', 'intro', uChiLocation, 13);
     mapBody = createMap('map-body', 'body', ChiLocation, 12);
     popupStuff(mapBody);
 
