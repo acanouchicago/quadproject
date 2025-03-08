@@ -11,6 +11,7 @@ const ChiLocation = [-87.63211524853163, 41.862161325588076];
 const hydeParkLocation = [-87.5965, 41.795];
 const hpLocationSide = [-87.606, 41.795];
 const uChiLocationSide = [-87.606, 41.78955];
+const generalUChiLocation = [-87.60457, 41.78940]
 
 const isMobile = window.innerWidth < 900;
 
@@ -694,7 +695,7 @@ function filterOpacity(map, layer, show = true, opacity_max = 0.6) {
     map.setPaintProperty(layer, 'fill-opacity', opacity);
 }
 
-function createMap(div, type, startCoords = uChiLocation, zoomStart = 12) {
+function createMap(div, type, startCoords = generaluChiLocation, zoomStart = 12) {
     let map = new maplibregl.Map({
         container: div,
         style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json', // stylesheet locatio
@@ -1759,7 +1760,7 @@ function init() {
     quoteOnlyCredit.style.margin = 0;
 
     // create maps
-    mapIntro = createMap('map-intro', 'intro', uChiLocation, 13);
+    mapIntro = createMap('map-intro', 'intro', uChiLocation, 15.5);
     mapBody = createMap('map-body', 'body', ChiLocation, 12);
     popupStuff(mapBody);
 
