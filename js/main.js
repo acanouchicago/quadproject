@@ -1760,7 +1760,7 @@ function init() {
     quoteOnlyCredit.style.margin = 0;
 
     // create maps
-    mapIntro = createMap('map-intro', 'intro', generaluChiLocation, 14.6);
+    mapIntro = createMap('map-intro', 'intro', generalUChiLocation, 14.6);
     mapBody = createMap('map-body', 'body', uChiLocation, 15);
     popupStuff(mapBody);
 
