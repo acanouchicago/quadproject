@@ -404,7 +404,7 @@ function createOtherGeoms(map) {
         map.addLayer({
             id: 'uchicago_campus_line',
             type: 'line',
-            source: 'campus',
+            source: 'other',
             layout: {},
             paint: {
                 'line-color': 'black',
@@ -416,7 +416,7 @@ function createOtherGeoms(map) {
         map.addLayer({
             id: 'uchicago_campus_fill',
             type: 'fill',
-            source: 'campus',
+            source: 'other',
             layout: {},
             paint: {
                 'fill-color': 'black',
