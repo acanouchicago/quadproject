@@ -944,6 +944,16 @@ function introWaypoints() {
                     0.005,
                     4
                 );
+                                mapBody.setPaintProperty(
+                    'uchicago_campus_line',
+                    'line-opacity',
+                    1
+                );
+                mapBody.setPaintProperty(
+                    'uchicago_campus_fill',
+                    'fill-opacity',
+                    0.2
+                );
             } else {
             }
         },
@@ -963,16 +973,6 @@ function introWaypoints() {
                     zoom: 15.5,
                     duration: zoomSpeed
                 });
-                mapBody.setPaintProperty(
-                    'uchicago_campus_line',
-                    'line-opacity',
-                    0
-                );
-                mapBody.setPaintProperty(
-                    'uchicago_campus_fill',
-                    'fill-opacity',
-                    0
-                );
                 fadeInLayer(
                     document.getElementById('scroll-down'),
                     0,
