@@ -419,7 +419,8 @@ function createOtherGeoms(map) {
         source: 'campus',
         layout: {},
         paint: {
-            'fill-color': 'black',
+            'fill-color': 'rgba(165, 42, 42, 0.5)', // Translucent brown color
+            'fill-outline-color': '#654321', // Dark brown outline
             'fill-opacity': 0
         }
     });
