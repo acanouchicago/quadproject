@@ -411,6 +411,7 @@ function createOtherGeoms(map) {
             'line-width': 2,
             'line-opacity': 0
         },
+        filter: ['any']
     });
 
     map.addLayer({
@@ -423,6 +424,7 @@ function createOtherGeoms(map) {
             'fill-outline-color': '#654321', // Dark brown outline
             'fill-opacity': 0
         },
+        filter: ['any']
     });
 }
 
