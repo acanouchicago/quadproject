@@ -694,7 +694,7 @@ function filterOpacity(map, layer, show = true, opacity_max = 0.6) {
     map.setPaintProperty(layer, 'fill-opacity', opacity);
 }
 
-function createMap(div, type, startCoords = uChiLocation, zoomStart = 17) {
+function createMap(div, type, startCoords = uChiLocation, zoomStart = 14) {
     let map = new maplibregl.Map({
         container: div,
         style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json', // stylesheet locatio
@@ -958,7 +958,7 @@ function introWaypoints() {
 
             mapIntro.flyTo({
                 center: isMobile ? [-87.597, 41.795] : uChiLocation,
-                zoom: isMobile ? 33.3 : 33.5,
+                zoom: isMobile ? 16.8 : 17,
                 duration: 6000
             });
         },
