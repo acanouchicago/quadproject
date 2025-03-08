@@ -934,7 +934,7 @@ function introWaypoints() {
 
                 mapIntro.flyTo({
                     center: uchiLocation,
-                    zoom: 50,
+                    zoom: 15.5,
                     duration: zoomSpeed
                 });
                 fadeInLayer(
@@ -958,7 +958,7 @@ function introWaypoints() {
 
             mapIntro.flyTo({
                 center: isMobile ? [-87.597, 41.795] : uChiLocation,
-                zoom: isMobile ? 13.3 : 13.5,
+                zoom: isMobile ? 33.3 : 33.5,
                 duration: 6000
             });
         },
