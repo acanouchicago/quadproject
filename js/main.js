@@ -1,6 +1,7 @@
 // ------------------ DATA ------------------
 dataPath = 'data/properties.geojson';
 otherPath = 'data/other_geoms.geojson';
+campusPath = 'data/uchicago_campus.geojson';
 let config = [];
 
 // -------- CONSTANTS --------
@@ -398,6 +399,30 @@ function createOtherGeoms(map) {
         },
         filter: ['==', ['get', 'name'], 'Patrol Area']
     });
+
+        // full campus
+        map.addLayer({
+            id: 'uchicago_campus_line',
+            type: 'line',
+            source: 'campus',
+            layout: {},
+            paint: {
+                'line-color': 'black',
+                'line-width': 2,
+                'line-opacity': 0
+            }
+        });
+    
+        map.addLayer({
+            id: 'uchicago_campus_fill',
+            type: 'fill',
+            source: 'campus',
+            layout: {},
+            paint: {
+                'fill-color': 'black',
+                'fill-opacity': 0
+            }
+        });
 }
 
 function createOverlayMapLayers(map) {
@@ -938,6 +963,16 @@ function introWaypoints() {
                     zoom: 15.5,
                     duration: zoomSpeed
                 });
+                mapBody.setPaintProperty(
+                    'uchicago_campus_line',
+                    'line-opacity',
+                    0
+                );
+                mapBody.setPaintProperty(
+                    'uchicago_campus_fill',
+                    'fill-opacity',
+                    0
+                );
                 fadeInLayer(
                     document.getElementById('scroll-down'),
                     0,
@@ -957,6 +992,16 @@ function introWaypoints() {
 
             filterOpacity(mapIntro, 'endLayer', true);
 
+            mapBody.setPaintProperty(
+                'uchicago_campus_line',
+                'line-opacity',
+                0
+            );
+            mapBody.setPaintProperty(
+                'uchicago_campus_fill',
+                'fill-opacity',
+                0
+            );
             mapIntro.flyTo({
                 center: isMobile ? [-87.597, 41.795] : uChiLocation,
                 zoom: isMobile ? 15.3 : 15.5,
