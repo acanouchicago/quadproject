@@ -1004,12 +1004,12 @@ function introWaypoints() {
             mapBody.setPaintProperty(
                 'uchicago_campus_line',
                 'line-opacity',
-                0
+                1
             );
             mapBody.setPaintProperty(
                 'uchicago_campus_fill',
                 'fill-opacity',
-                0
+                0.2
             );
             mapIntro.flyTo({
                 center: isMobile ? [-87.597, 41.795] : uChiLocation,
