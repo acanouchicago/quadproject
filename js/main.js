@@ -400,29 +400,29 @@ function createOtherGeoms(map) {
         filter: ['==', ['get', 'name'], 'Patrol Area']
     });
 
-        // full campus
-        map.addLayer({
-            id: 'uchicago_campus_line',
-            type: 'line',
-            source: 'other',
-            layout: {},
-            paint: {
-                'line-color': 'black',
-                'line-width': 2,
-                'line-opacity': 0
-            }
-        });
-    
-        map.addLayer({
-            id: 'uchicago_campus_fill',
-            type: 'fill',
-            source: 'other',
-            layout: {},
-            paint: {
-                'fill-color': 'black',
-                'fill-opacity': 0
-            }
-        });
+    // full campus
+    map.addLayer({
+        id: 'uchicago_campus_line',
+        type: 'line',
+        source: 'campus',
+        layout: {},
+        paint: {
+            'line-color': 'black',
+            'line-width': 2,
+            'line-opacity': 0
+        }
+    });
+
+    map.addLayer({
+        id: 'uchicago_campus_fill',
+        type: 'fill',
+        source: 'campus',
+        layout: {},
+        paint: {
+            'fill-color': 'black',
+            'fill-opacity': 0
+        }
+    });
 }
 
 function createOverlayMapLayers(map) {
