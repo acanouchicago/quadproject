@@ -404,7 +404,7 @@ function createOtherGeoms(map) {
     map.addLayer({
         id: 'uchicago_campus_line',
         type: 'line',
-        source: 'other',
+        source: 'campus',
         layout: {},
         paint: {
             'line-color': 'black',
@@ -416,7 +416,7 @@ function createOtherGeoms(map) {
     map.addLayer({
         id: 'uchicago_campus_fill',
         type: 'fill',
-        source: 'other',
+        source: 'campus',
         layout: {},
         paint: {
             'fill-color': 'black',
@@ -744,6 +744,12 @@ function createMap(div, type, startCoords = uChiLocation, zoomStart = 12) {
         map.addSource('other', {
             type: 'geojson',
             data: otherPath,
+            tolerance: 0.0
+        });
+        
+        map.addSource('campus', {
+            type: 'geojson',
+            data: campusPath,
             tolerance: 0.0
         });
 
