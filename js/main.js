@@ -933,8 +933,8 @@ function introWaypoints() {
                 filterOpacity(mapIntro, 'startLayer', true);
 
                 mapIntro.flyTo({
-                    center: hydeParkLocation,
-                    zoom: 15.5,
+                    center: uchiLocation,
+                    zoom: 17,
                     duration: zoomSpeed
                 });
                 fadeInLayer(
