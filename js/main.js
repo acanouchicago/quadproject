@@ -407,11 +407,11 @@ function createOtherGeoms(map) {
         source: 'campus',
         layout: {},
         paint: {
-            'line-color': 'rgba(114, 56, 27, 0.5)', // Translucent brown color
+            'line-color': 'black',
             'line-width': 2,
             'line-opacity': 0
         },
-        filter: ['any']
+        filter: ['any',['all'],['all']]
     });
 
     map.addLayer({
@@ -421,10 +421,10 @@ function createOtherGeoms(map) {
         layout: {},
         paint: {
             'fill-color': 'rgba(114, 56, 27, 0.5)', // Translucent brown color
-            'fill-outline-color': '#654321', // Dark brown outline
+            'fill-outline-color': 'black',
             'fill-opacity': 0
         },
-        filter: ['any']
+        filter: ['any',['all'],['all']]
     });
 }
 
@@ -1004,12 +1004,12 @@ function introWaypoints() {
             mapBody.setPaintProperty(
                 'uchicago_campus_line',
                 'line-opacity',
-                1
+                0
             );
             mapBody.setPaintProperty(
                 'uchicago_campus_fill',
                 'fill-opacity',
-                0.2
+                0
             );
             mapIntro.flyTo({
                 center: isMobile ? [-87.597, 41.795] : uChiLocation,
