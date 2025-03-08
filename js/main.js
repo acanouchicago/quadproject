@@ -944,7 +944,7 @@ function introWaypoints() {
                     0.005,
                     4
                 );
-                                mapBody.setPaintProperty(
+                mapBody.setPaintProperty(
                     'uchicago_campus_line',
                     'line-opacity',
                     1
