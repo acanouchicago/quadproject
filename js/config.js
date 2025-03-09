@@ -17,7 +17,7 @@ const config = [
                 text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 193</a>). Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
                 timeline_year: 1890,
                 image: './static/images/quad_plot.png',
-                image_credit: '<a href='http://pi.lib.uchicago.edu/1001/cat/bib/7704840' target = "_blank"><i>The Uses of Gothic<i></a>'
+                image_credit: '<i>The Uses of Gothic<i>'
             },
             {
                 id: '1.3',
