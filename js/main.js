@@ -1266,6 +1266,7 @@ function bodyWaypoints() {
                 clearInterval(flashingInterval);
                 mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0.999);
+                flashingInterval = flashLayer(mapBody, 'GB_blue', 500);
             }
         },
         offset: '50%'
@@ -1275,10 +1276,7 @@ function bodyWaypoints() {
         element: document.getElementById('2.2'),
         handler: function (direction) {
             if (direction == 'down') {
-                clearInterval(flashingInterval);
-                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
             } else {
-                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0.999);
             }
         },
         offset: '50%'
@@ -1288,7 +1286,11 @@ function bodyWaypoints() {
         element: document.getElementById('2.3'),
         handler: function (direction) {
             if (direction == 'down') {
+                clearInterval(flashingInterval);
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
             } else {
+                flashingInterval = flashLayer(mapBody, 'Hutch_blue', 500);
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0.999);
             }
         },
         offset: '50%'
