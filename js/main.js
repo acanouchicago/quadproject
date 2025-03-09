@@ -496,6 +496,50 @@ function createOverlayMapLayers(map) {
         }
     });
 
+    // Gates-Blake blue dot
+    map.addSource('GB_blue', {
+        type: 'image',
+        url: './static/images/BLOO.png',
+        coordinates: [
+            [-87.600863, 41.788474],
+            [-87.600605, 41.788474],
+            [-87.600605, 41.788273],
+            [-87.600863, 41.788273]
+        ]
+    });
+
+    map.addLayer({
+        id: 'GB_blue',
+        type: 'raster',
+        source: 'GB_blue',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
+    // Hutch blue dot
+    map.addSource('Hutch_blue', {
+        type: 'image',
+        url: './static/images/BLOO.png',
+        coordinates: [
+            [-87.598848, 41.791010],
+            [-87.598578, 41.791010],
+            [-87.598578, 41.790807],
+            [-87.598848, 41.790807]
+        ]
+    });
+
+    map.addLayer({
+        id: 'Hutch_blue',
+        type: 'raster',
+        source: 'Hutch_blue',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
     // urban renewal 1955
     map.addSource('south_campus_plan', {
         type: 'image',
@@ -1200,7 +1244,10 @@ function bodyWaypoints() {
         element: document.getElementById('demographics'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 1);
+                flashingInterval = flashLayer(mapBody, 'GB_blue', 0.5);
             } else {
+                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0);
             }
         },
         offset: '99%'
@@ -1210,7 +1257,12 @@ function bodyWaypoints() {
         element: document.getElementById('2.1'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0);
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 1);
+                flashingInterval = flashLayer(mapBody, 'Hutch_blue', 0.5);
             } else {
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
+                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 1);
             }
         },
         offset: '50%'
@@ -1220,7 +1272,9 @@ function bodyWaypoints() {
         element: document.getElementById('2.2'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
             } else {
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 1);
             }
         },
         offset: '50%'
