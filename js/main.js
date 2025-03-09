@@ -1000,17 +1000,6 @@ function introWaypoints() {
             filterOpacity(mapIntro, 'startLayer', false);
 
             filterOpacity(mapIntro, 'endLayer', true);
-
-            mapBody.setPaintProperty(
-                'uchicago_campus_line',
-                'line-opacity',
-                0
-            );
-            mapBody.setPaintProperty(
-                'uchicago_campus_fill',
-                'fill-opacity',
-                0
-            );
             mapIntro.flyTo({
                 center: isMobile ? [-87.597, 41.795] : uChiLocation,
                 zoom: isMobile ? 15.3 : 15.5,
@@ -1054,8 +1043,10 @@ function bodyWaypoints() {
             if (direction == 'down') {
             } else {
                 mapBody.flyTo({
-                    center: UchiLocation,
-                    zoom: 12,
+                    center: isMobile
+                        ? [-87.599672, 41.789588]
+                        : [-87.602, 41.789588],
+                    zoom: isMobile ? 15.5 : 16,
                     duration: zoomSpeed
                 });
             }
@@ -1106,17 +1097,13 @@ function bodyWaypoints() {
         element: document.getElementById('1.3'),
         handler: function (direction) {
             if (direction == 'down') {
-                mapBody.setPaintProperty(
-                    '1901_Simonds_plan',
-                    'raster-opacity',
-                    0
-                );
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
                 removePopups();
                 filterOpacity(mapBody, 'land_grant', false);
                 updateLayers(1895);
             } else {
                 timelineYear = findConfigValue('1.2', 'timeline_year');
-                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0)
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.7)
                 changeTimelineYear(timelineYear);
                 filterOpacity(mapBody, 'land_grant', true);
                 filterOpacity(mapBody, 'layer1895', false);
