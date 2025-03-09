@@ -12,14 +12,14 @@ const config = [
                 text: `Founded in 1890, the University received most of its initial funding from renowned industrialist John D. Rockefeller and a substantial land grant from Marshall Field, a department store magnate. In 1891, a design contest was announced for architects to design the new campus for six Chicago architectural firms, aiming for a grand and historic architectural design. One of the competing architects, Henry Ives Cobb, was eventually selected as the architect of the new campus.`,
                 timeline_year: 1889,
                 image: './static/images/quad_plot.png',
-                image_credit: '<i>The Uses of Gothic<i>',
+                image_credit: '<i>The Uses of Gothic<i> by Jean F. Block',
             },
             {
                 id: '1.2',
                 text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 193</a>). Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
                 timeline_year: 1890,
                 image: './static/images/quad_plot.png',
-                image_credit: '<i>The Uses of Gothic<i>'
+                image_credit: '<i>The Uses of Gothic<i> by Jean F. Block'
             },
             {
                 id: '1.3',

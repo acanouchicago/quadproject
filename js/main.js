@@ -1069,6 +1069,7 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 document.getElementById('explore-nav').style.visibility =
                     'visible';
+                filterOpacity(mapBody, 'land_grant', true)
             } else {
                 document.getElementById('explore-nav').style.visibility =
                     'hidden';
@@ -1082,6 +1083,7 @@ function bodyWaypoints() {
         element: document.getElementById('1.2'),
         handler: function (direction) {
             if (direction == 'down') {
+                filterOpacity(mapBody, 'land_grant', false);
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.7);
                 timelineYear = findConfigValue('1.2', 'timeline_year');
                 changeTimelineYear(timelineYear);
@@ -1114,6 +1116,7 @@ function bodyWaypoints() {
                 updateLayers(1895);
             } else {
                 timelineYear = findConfigValue('1.2', 'timeline_year');
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0)
                 changeTimelineYear(timelineYear);
                 filterOpacity(mapBody, 'land_grant', true);
                 filterOpacity(mapBody, 'layer1895', false);
