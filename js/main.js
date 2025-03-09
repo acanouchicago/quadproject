@@ -407,11 +407,11 @@ function createOtherGeoms(map) {
         source: 'campus',
         layout: {},
         paint: {
-            'line-color': 'black',
+            'line-color': 'rgba(114, 56, 27, 0.5)', // Translucent brown color
             'line-width': 2,
             'line-opacity': 0
         },
-        filter: ['any',['all'],['all']]
+        filter: ['any']
     });
 
     map.addLayer({
@@ -421,10 +421,10 @@ function createOtherGeoms(map) {
         layout: {},
         paint: {
             'fill-color': 'rgba(114, 56, 27, 0.5)', // Translucent brown color
-            'fill-outline-color': 'black',
+            'fill-outline-color': '#654321', // Dark brown outline
             'fill-opacity': 0
         },
-        filter: ['any',['all'],['all']]
+        filter: ['any']
     });
 }
 

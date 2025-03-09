@@ -9,17 +9,15 @@ const config = [
         subsections: [
             {
                 id: '1.1',
-                text: `In 1889, businessman and philanthropist John D. Rockefeller committed $600,000 toward a “new institution of learning in <a href='https://storymaps.arcgis.com/stories/8bc70c8a457943da81800274c93100ca' target = "_blank">Olmsted Brothers</a>.”`,
+                text: `Founded in 1890, the University received most of its initial funding from renowned industrialist John D. Rockefeller and a substantial land grant from Marshall Field, a department store magnate. In 1891, a design contest was announced for architects to design the new campus for six Chicago architectural firms, aiming for a grand and historic architectural design. One of the competing architects, Henry Ives Cobb, was eventually selected as the architect of the new campus.`,
                 timeline_year: 1889,
-                image: './static/images/jdr.jpg',
-                image_credit: 'University of Chicago Photographic Archive'
             },
             {
                 id: '1.2',
-                text: `A few months later in January 1890, prominent landowner Marshall Field pledged 10 acres of his land in Hyde Park to the new University. The site stretched from 57th to 59th Street, between Ellis Avenue and Lexington (now University) Avenue.`,
+                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 193</a>). Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
                 timeline_year: 1890,
-                image: './static/images/og_uchi.jpg',
-                image_credit: 'University of Chicago Photographic Archive'
+                image: './static/images/quad_plot.png',
+                image_credit: '<a href='http://pi.lib.uchicago.edu/1001/cat/bib/7704840' target = "_blank"><i>The Uses of Gothic<i></a>'
             },
             {
                 id: '1.3',
