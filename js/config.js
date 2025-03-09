@@ -93,11 +93,11 @@ const config = [
     },
     {
         chapterTitle:
-            '1949-1962: Urban Renewal and <br>“A Compatible Community”',
+            'A Quad in Unrest: The 2024 Encampment',
         chapterYears: '1949-1962',
         id: '3',
-        image: './static/images/chapter3.png',
-        img_credit: 'Hyde Park Herald',
+        image: './static/images/nyt_camp.jpg',
+        img_credit: '<i>The New York Times</i>',
         subsections: [
             {
                 id: '3.0',
