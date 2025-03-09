@@ -12,21 +12,21 @@ const config = [
                 text: `Founded in 1890, the University received most of its initial funding from renowned industrialist John D. Rockefeller and a substantial land grant from Marshall Field, a department store magnate. In 1891, a design contest was announced for architects to design the new campus for six Chicago architectural firms, aiming for a grand and historic architectural design. One of the competing architects, Henry Ives Cobb, was eventually selected as the architect of the new campus.`,
                 timeline_year: 1889,
                 image: './static/images/quad_plot.png',
-                image_credit: '<i>The Uses of Gothic<i> by Jean F. Block',
+                image_credit: 'University of Chicago Photographic Archive, 1891',
             },
             {
                 id: '1.2',
-                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them. Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
+                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them. Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of partial, insular intimacy separate from the bustling streets of Chicago. While he certainly borrowed from earlier European models (most those of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-194</a>).`,
                 timeline_year: 1890,
                 image: './static/images/Cobb_3D.jpg',
-                image_credit: '<i>The Arhitectural Record<i>, IV, No. 2 (December 1894)'
+                image_credit: '<i>The Arhitectural Record<i>, IV, No. 2, 1894'
             },
             {
                 id: '1.3',
-                text: `While he certainly borrowed from earlier European models (most notably the collegiate Gothic traditions of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. Unlike other quadrangle campuses that were often intentionally built to completely seclude, Cobb aimed to have the UChicago quadrangles engage directly with the adjacent neighborhood and the city (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 194</a>).`,
+                text: `In 1901, O.C. Simonds attempted to do away with Cobb's vision of formal quadrangles, instead opting to use irregular desire paths and landscaping, such as random clusters of shrubs and plantings. His work contrasted the strict formality of the neo-Gothic buildings and attempted to provide some level of approachability and informality to the quad. However, most trustees considered Simonds' plan to be lacking structure and therefore found it inappropriate for the campus (<a href='https://www.jbachrach.com/blog/2022/11/30/a-study-in-quadrangles-the-university-of-chicago-campus' target = "_blank">Julia Bachrach Consulting</a>).`,
                 timeline_year: 1892,
-                image: './static/images/chapter1.jpg',
-                image_credit: 'University of Chicago Photographic Archive'
+                image: './static/images/Aerial_1901.png',
+                image_credit: 'University of Chicago Photographic Archive, 1901'
             },
             {
                 id: '1.3a',
