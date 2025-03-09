@@ -455,7 +455,7 @@ function createOverlayMapLayers(map) {
     // Cobb 1891 plan
     map.addSource('Cobb_1891', {
         type: 'image',
-        url: './static/images/Cobb_1891.png',
+        url: './static/images/cobb_1891.png',
         coordinates: [
             [-87.601180, 41.791447],
             [-87.598100, 41.791447],
