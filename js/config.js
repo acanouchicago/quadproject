@@ -11,6 +11,8 @@ const config = [
                 id: '1.1',
                 text: `Founded in 1890, the University received most of its initial funding from renowned industrialist John D. Rockefeller and a substantial land grant from Marshall Field, a department store magnate. In 1891, a design contest was announced for architects to design the new campus for six Chicago architectural firms, aiming for a grand and historic architectural design. One of the competing architects, Henry Ives Cobb, was eventually selected as the architect of the new campus.`,
                 timeline_year: 1889,
+                image: './static/images/quad_plot.png',
+                image_credit: '<i>The Uses of Gothic<i>',
             },
             {
                 id: '1.2',
