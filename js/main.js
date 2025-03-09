@@ -1111,7 +1111,6 @@ function bodyWaypoints() {
             } else {
                 mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0);
                 filterOpacity(mapBody, 'land_grant', true)
-                updateLayers(1895);
             }
         },
         offset: '50%'
@@ -1124,13 +1123,11 @@ function bodyWaypoints() {
                 mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0);
                 removePopups();
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
-                updateLayers(1901);
             } else {
                 timelineYear = findConfigValue('1.2', 'timeline_year');
                 mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0.6);
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
                 changeTimelineYear(timelineYear);
-                filterOpacity(mapBody, 'layer1901', false);
             }
         },
         offset: '50%'
@@ -1147,7 +1144,6 @@ function bodyWaypoints() {
             } else {
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
                 removePopups();
-                updateLayers(1901);
             }
         },
         offset: '50%'
