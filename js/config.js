@@ -38,7 +38,7 @@ const config = [
             {
                 id: '1.4',
                 text: `
-                Ultimately, the University of Chicago's quadrangles design resulted from a combination of architectural imagination, educational ideals, and late nineteenth-century Chicago's culture of ambition. The quadrangles were not just a group of new academic buildings—they were the deliberate vision of a university that intended to be well-embedded in the life of its city, intentionally designed to guide both intellectual life and civic identity for years to come (Wolner, pp. 212-213).`,
+                Ultimately, the University of Chicago's quadrangles design resulted from a combination of architectural imagination, educational ideals, and late nineteenth-century Chicago's culture of ambition. The quadrangles were not just a group of new academic buildings—they were the deliberate vision of a university that intended to be well-embedded in the life of its city, intentionally designed to guide both intellectual life and civic identity for years to come (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 212-213</a>).`,
                 timeline_year: 1927
             }
         ]
