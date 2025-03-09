@@ -31,9 +31,9 @@ const config = [
             {
                 id: '1.3a',
                 text: `
-                In 1902, the University contracted the <a href='https://storymaps.arcgis.com/stories/8bc70c8a457943da81800274c93100ca' target = "_blank">Olmsted Brothers</a> to design the campus grounds. Over the next 40 years, the University built the core of the main campus, including iconic buildings such as the Reynolds Club and Harper Memorial Library. 
-                <br>
-                At any time, click the <span class = 'highlight explore'>Explore Map</span> button in the top right and hover over a building to learn more.`
+                Following a request from an administrator to redesign the quad landscaping, John Charles Olmsted (of the Olmsted brothers and nephew of renowned architect Frederick Law Olmsted) included plain, angular paths in his 1902 master plan, creating a greater formality and consistency with the already built architecture (<a href='https://www.tclf.org/landscapes/university-chicago' target = "_blank">The Cultural Landscape Foundation</a>, <a href='https://www.jbachrach.com/blog/2022/11/30/a-study-in-quadrangles-the-university-of-chicago-campus' target = "_blank">Julia Bachrach Consulting</a>). This plan is closer to the arrangement of paths in the quad today.`,
+                image: './static/images/chapter1.jpg',
+                image_credit: 'University of Chicago Photographic Archive, 1916'
             },
             {
                 id: '1.4',

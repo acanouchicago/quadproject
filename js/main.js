@@ -474,6 +474,28 @@ function createOverlayMapLayers(map) {
         }
     });
 
+    // Olmsted 1902 plan
+    map.addSource('Olmsted_plan', {
+        type: 'image',
+        url: './static/images/Olmsted_plan.jpg',
+        coordinates: [
+            [-87.602088, 41.787535],
+            [-87.602222, 41.791750],
+            [-87.597604, 41.791807],
+            [-87.597508, 41.787590]
+        ]
+    });
+
+    map.addLayer({
+        id: 'Olmsted_plan',
+        type: 'raster',
+        source: 'Olmsted_plan',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
     // urban renewal 1955
     map.addSource('south_campus_plan', {
         type: 'image',
@@ -1139,11 +1161,10 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 updateLayers(1930);
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
-                // highlight popups
-                highlightPopup(ids_1_3);
+                mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0.6);
             } else {
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
-                removePopups();
+                mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0);
             }
         },
         offset: '50%'
@@ -1153,7 +1174,7 @@ function bodyWaypoints() {
         element: document.getElementById('1.4'),
         handler: function (direction) {
             if (direction == 'down') {
-                removePopups();
+                mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0);
                 timelineYear = findConfigValue('1.4', 'timeline_year');
                 updateLayers(1935);
 
@@ -1171,6 +1192,7 @@ function bodyWaypoints() {
                     duration: zoomSpeed
                 });
             } else {
+                mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0.6);
                 mapBody.setPaintProperty(
                     'south_campus_plan',
                     'raster-opacity',
