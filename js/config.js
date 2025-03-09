@@ -44,18 +44,18 @@ const config = [
             {
                 id: '1.5',
                 text: `
-                A relatively more recent development in the design of the quad came in 2009, when the pathways were redesigned to make them more pedestrian-friendly (<i><a href='https://chronicle.uchicago.edu/090611/quad.shtml' target = "_blank">The University of Chicago Chronicle</a><i><i>). Before the redesign, the paths leading into the middle of the quad were asphalt roads, accessible to vehicles. However, the redesign removed public vehicle access to the quad, prioritizing the needs of pedestrians instead. This pedestrianization of the quad pathways reinforces the idea that the quad isn’t a mere thoroughfare, but rather a space for community and gathering—a public square.`,
+                A relatively more recent development in the design of the quad came in 2009, when the pathways were redesigned to make them more pedestrian-friendly (<a href='https://chronicle.uchicago.edu/090611/quad.shtml' target = "_blank">The University of Chicago Chronicle</a>). Before the redesign, the paths leading into the middle of the quad were asphalt roads, accessible to vehicles. However, the redesign removed public vehicle access to the quad, prioritizing the needs of pedestrians instead. This pedestrianization of the quad pathways reinforces the idea that the quad isn’t a mere thoroughfare, but rather a space for community and gathering—a public square.`,
                 image: './static/images/quad_ped.jpg',
                 image_credit: '<i>The University of Chicago Chronicle<i>, 2009'
             }
         ]
     },
     {
-        chapterTitle: '1933-1948: Neighborhood Intervention',
+        chapterTitle: 'The Historical and Contemporary Quad',
         chapterYears: '1933–1948',
         id: '2',
-        image: './static/images/chapter2.jpg',
-        img_credit: 'University of Chicago Photographic Archive',
+        image: './static/images/quad_2025.jpg',
+        img_credit: 'Alan Cano',
         subsections: [
             {
                 id: 'demographics',
