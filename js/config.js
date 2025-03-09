@@ -16,15 +16,14 @@ const config = [
             },
             {
                 id: '1.2',
-                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 193</a>). Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
+                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them. Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
                 timeline_year: 1890,
                 image: './static/images/quad_plot.png',
                 image_credit: '<i>The Uses of Gothic<i> by Jean F. Block'
             },
             {
                 id: '1.3',
-                text: `
-                In 1892, the Board of Trustees commissioned architect Henry Ives Cobb to draw up a master plan for the University. Trustees Martin Ryerson and Charles Hutchinson advocated for a neo-Gothic style, aiming to situate the University among established, storied European universities. In a letter to Rockefeller, President William Rainey Harper wrote that he didn’t want festivities on opening day so that the University’s academic operations would seem like “the continuation of work which had been conducted for a thousand years,” Robin Bachin documents in <i>Building the South Side</i>.`,
+                text: `While he certainly borrowed from earlier European models (most notably the collegiate Gothic traditions of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. Unlike the Oxbridge colleges, whose quadrangles were walled to shield them from local unrest, Cobb's quadrangles were designed to directly engage with the adjacent neighborhood and urban environment (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 194</a>)).`,
                 timeline_year: 1892,
                 image: './static/images/chapter1.jpg',
                 image_credit: 'University of Chicago Photographic Archive'
