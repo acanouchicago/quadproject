@@ -18,12 +18,12 @@ const config = [
                 id: '1.2',
                 text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them. Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of insular intimacy separate from the bustling streets of Chicago (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-193</a>).`,
                 timeline_year: 1890,
-                image: './static/images/quad_plot.png',
-                image_credit: '<i>The Uses of Gothic<i> by Jean F. Block'
+                image: './static/images/Cobb_3D.jpg',
+                image_credit: '<i>The Arhitectural Record<i>, IV, No. 2 (December 1894)'
             },
             {
                 id: '1.3',
-                text: `While he certainly borrowed from earlier European models (most notably the collegiate Gothic traditions of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. Unlike the Oxbridge colleges, whose quadrangles were walled to shield them from local unrest, Cobb's quadrangles were designed to directly engage with the adjacent neighborhood and urban environment (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 194</a>)).`,
+                text: `While he certainly borrowed from earlier European models (most notably the collegiate Gothic traditions of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. Unlike other quadrangle campuses that were often intentionally built to completely seclude, Cobb aimed to have the UChicago quadrangles engage directly with the adjacent neighborhood and the city (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 194</a>).`,
                 timeline_year: 1892,
                 image: './static/images/chapter1.jpg',
                 image_credit: 'University of Chicago Photographic Archive'
