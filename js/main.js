@@ -1244,8 +1244,8 @@ function bodyWaypoints() {
         element: document.getElementById('demographics'),
         handler: function (direction) {
             if (direction == 'down') {
-                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 1);
-                flashingInterval = flashLayer(mapBody, 'GB_blue', 50);
+                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0.999);
+                flashingInterval = flashLayer(mapBody, 'GB_blue', 500);
             } else {
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0);
             }
@@ -1258,11 +1258,11 @@ function bodyWaypoints() {
         handler: function (direction) {
             if (direction == 'down') {
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0);
-                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 1);
-                flashingInterval = flashLayer(mapBody, 'Hutch_blue', 50);
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0.999);
+                flashingInterval = flashLayer(mapBody, 'Hutch_blue', 500);
             } else {
                 mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
-                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 1);
+                mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0.999);
             }
         },
         offset: '50%'
@@ -1274,7 +1274,7 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
             } else {
-                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 1);
+                mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0.999);
             }
         },
         offset: '50%'
