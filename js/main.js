@@ -1128,8 +1128,6 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 filterOpacity(mapBody, 'land_grant', false);
                 mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0.6);
-                timelineYear = findConfigValue('1.2', 'timeline_year');
-                changeTimelineYear(timelineYear);
             } else {
                 mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0);
                 filterOpacity(mapBody, 'land_grant', true)
@@ -1146,10 +1144,8 @@ function bodyWaypoints() {
                 removePopups();
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
             } else {
-                timelineYear = findConfigValue('1.2', 'timeline_year');
                 mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0.6);
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
-                changeTimelineYear(timelineYear);
             }
         },
         offset: '50%'
@@ -1159,9 +1155,8 @@ function bodyWaypoints() {
         element: document.getElementById('1.3a'),
         handler: function (direction) {
             if (direction == 'down') {
-                updateLayers(1930);
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
-                mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0.6);
+                mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0.7);
             } else {
                 mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
                 mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0);
@@ -1175,73 +1170,11 @@ function bodyWaypoints() {
         handler: function (direction) {
             if (direction == 'down') {
                 mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0);
-                timelineYear = findConfigValue('1.4', 'timeline_year');
-                updateLayers(1935);
-
-                mapBody.setPaintProperty(
-                    'south_campus_plan',
-                    'raster-opacity',
-                    0.8
-                );
-
-                mapBody.flyTo({
-                    center: isMobile
-                        ? [-87.59949114840359, 41.78503755171042]
-                        : [-87.602, 41.7849],
-                    zoom: isMobile ? 15.5 : 16,
-                    duration: zoomSpeed
-                });
+                updateLayers(2000);
+                filterOpacity(mapBody, 'layer2000', true)
             } else {
                 mapBody.setPaintProperty('Olmsted_plan', 'raster-opacity', 0.6);
-                mapBody.setPaintProperty(
-                    'south_campus_plan',
-                    'raster-opacity',
-                    0.0
-                );
-                mapBody.flyTo({
-                    center: isMobile ? uChiLocationMobile : uChiLocationSide,
-                    zoom: isMobile ? 14 : 14.5,
-                    duration: zoomSpeed
-                });
-                updateLayers(1930);
-            }
-        },
-        offset: '50%'
-    });
-
-    new Waypoint({
-        element: document.getElementById('1.5'),
-        handler: function (direction) {
-            if (direction == 'down') {
-                mapBody.setPaintProperty(
-                    'south_campus_plan',
-                    'raster-opacity',
-                    0
-                );
-                mapBody.flyTo({
-                    center: isMobile ? uChiLocationMobile : uChiLocationSide,
-                    zoom: isMobile ? 14 : 14.5,
-                    duration: zoomSpeed
-                });
-                // timeout then add popup
-                setTimeout(() => {
-                    highlightPopup(['72']);
-                }, 2000);
-            } else {
-                removePopups();
-                mapBody.setPaintProperty(
-                    'south_campus_plan',
-                    'raster-opacity',
-                    0.8
-                );
-
-                mapBody.flyTo({
-                    center: isMobile
-                        ? [-87.59949114840359, 41.78503755171042]
-                        : [-87.602, 41.7849],
-                    zoom: isMobile ? 15.5 : 16,
-                    duration: zoomSpeed
-                });
+                filterOpacity(mapBody, 'layer2000', false)
             }
         },
         offset: '50%'

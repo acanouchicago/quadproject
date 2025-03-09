@@ -31,23 +31,15 @@ const config = [
             {
                 id: '1.3a',
                 text: `
-                Following a request from an administrator to redesign the quad landscaping, John Charles Olmsted (of the Olmsted brothers and nephew of renowned architect Frederick Law Olmsted) included plain, angular paths in his 1902 master plan, creating a greater formality and consistency with the already built architecture (<a href='https://www.tclf.org/landscapes/university-chicago' target = "_blank">The Cultural Landscape Foundation</a>, <a href='https://www.jbachrach.com/blog/2022/11/30/a-study-in-quadrangles-the-university-of-chicago-campus' target = "_blank">Julia Bachrach Consulting</a>). This plan is closer to the arrangement of paths in the quad today.`,
+                Following a request from an administrator to redesign the quad landscaping, John Charles Olmsted (of the Olmsted brothers and nephew of renowned architect Frederick Law Olmsted) included plain, angular paths in his 1902 master plan, creating a greater formality and consistency with the existing architecture (<a href='https://www.tclf.org/landscapes/university-chicago' target = "_blank">The Cultural Landscape Foundation</a>, <a href='https://www.jbachrach.com/blog/2022/11/30/a-study-in-quadrangles-the-university-of-chicago-campus' target = "_blank">Julia Bachrach Consulting</a>). This plan is closer to the arrangement of paths in the quad today.`,
                 image: './static/images/chapter1.jpg',
                 image_credit: 'University of Chicago Photographic Archive, 1916'
             },
             {
                 id: '1.4',
                 text: `
-                Circa 1927, the University made provisions to add on-campus housing. The trustees commissioned architect Charles Klauder whose “South Campus plan” included new residence halls on the south side of the Midway. However, the only building constructed under the plan during this time was the Burton-Judson Courts in 1931. Only in the 1960s did President George W. Beadle revisit the South Campus plan, and the University remained mostly a commuter campus through the 1930s. In 1933, facing financial difficulties amidst the Great Depression, President Hutchins even <a href='https://www.northwestern.edu/nu150/news/stories/04_05_01_merger.html' target = "_blank">proposed</a> merging the University with Northwestern.`,
+                Ultimately, the University of Chicago's quadrangles design resulted from a combination of architectural imagination, educational ideals, and late nineteenth-century Chicago's culture of ambition. The quadrangles were not just a group of new academic buildings—they were the deliberate vision of a university that intended to be well-embedded in the life of its city, intentionally designed to guide both intellectual life and civic identity for years to come (Wolner, pp. 212-213).`,
                 timeline_year: 1927
-            },
-
-            {
-                id: '1.5',
-                text: `
-                Although the campus was self-contained, a community-university relationship slowly began to form. When President Harper hired sought-after coach Amos Alonzo Stagg, <a href = "https://chicagomaroon.com/39731/grey-city/brains-over-brawn-how-football-found-its-place-at-uchicago/" target = "_blank">football culture</a> and games at Stagg Field improved the University’s reputation among Chicagoans.`,
-                image: './static/images/football.jpg',
-                image_credit: 'University of Chicago Photographic Archive'
             }
         ]
     },
