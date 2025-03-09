@@ -452,6 +452,28 @@ function createOverlayMapLayers(map) {
         }
     });
 
+    // Cobb 1891 plan
+    map.addSource('Cobb_1891', {
+        type: 'image',
+        url: './static/images/Cobb_1891.png',
+        coordinates: [
+            [-87.601180, 41.791447],
+            [-87.598100, 41.791447],
+            [-87.598100, 41.787769],
+            [-87.601180, 41.787769]
+        ]
+    });
+
+    map.addLayer({
+        id: 'Cobb_1891',
+        type: 'raster',
+        source: 'Cobb_1891',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
     // urban renewal 1955
     map.addSource('south_campus_plan', {
         type: 'image',
@@ -1060,7 +1082,14 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 document.getElementById('explore-nav').style.visibility =
                     'visible';
-                filterOpacity(mapBody, 'land_grant', true)
+                    mapBody.flyTo({
+                        center: isMobile
+                            ? [-87.599672, 41.789588]
+                            : [-87.602, 41.789588],
+                        zoom: isMobile ? 15.5 : 16,
+                        duration: zoomSpeed
+                    });
+                    filterOpacity(mapBody, 'land_grant', true)
             } else {
                 document.getElementById('explore-nav').style.visibility =
                     'hidden';
@@ -1075,18 +1104,12 @@ function bodyWaypoints() {
         handler: function (direction) {
             if (direction == 'down') {
                 filterOpacity(mapBody, 'land_grant', false);
-                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.7);
+                mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0.6);
                 timelineYear = findConfigValue('1.2', 'timeline_year');
                 changeTimelineYear(timelineYear);
-                mapBody.flyTo({
-                    center: isMobile
-                        ? [-87.599672, 41.789588]
-                        : [-87.602, 41.789588],
-                    zoom: isMobile ? 15.5 : 16,
-                    duration: zoomSpeed
-                });
             } else {
-                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
+                mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0);
+                filterOpacity(mapBody, 'land_grant', true)
                 updateLayers(1895);
             }
         },
@@ -1097,13 +1120,15 @@ function bodyWaypoints() {
         element: document.getElementById('1.3'),
         handler: function (direction) {
             if (direction == 'down') {
-                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
+                mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0);
                 removePopups();
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
                 filterOpacity(mapBody, 'land_grant', false);
                 updateLayers(1895);
             } else {
                 timelineYear = findConfigValue('1.2', 'timeline_year');
-                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.7)
+                mapBody.setPaintProperty('Cobb_1891', 'raster-opacity', 0.6);
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
                 changeTimelineYear(timelineYear);
                 filterOpacity(mapBody, 'land_grant', true);
                 filterOpacity(mapBody, 'layer1895', false);
@@ -1117,9 +1142,11 @@ function bodyWaypoints() {
         handler: function (direction) {
             if (direction == 'down') {
                 updateLayers(1930);
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0);
                 // highlight popups
                 highlightPopup(ids_1_3);
             } else {
+                mapBody.setPaintProperty('1901_Simonds_plan', 'raster-opacity', 0.6);
                 removePopups();
                 updateLayers(1895);
             }
