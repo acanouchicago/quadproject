@@ -60,27 +60,34 @@ const config = [
             {
                 id: 'demographics',
                 text: `
-                The Great Migration significantly transformed the racial makeup of Chicago. A city that was 2 percent Black in 1910 would approach 14 percent by 1950. “<a href = "http://www.encyclopedia.chicagohistory.org/pages/880.html" target = "_blank">Racial succession</a>,” the process of one racial group replacing another in a certain  neighborhood, coined by early-20th-century University of Chicago urban sociologists, became a growing concern of both the University and city officials. At this stage, the University began to see the neighborhood’s fate as tied to its own.`,
-                image: './static/images/demos.png',
+                Given the quadrangles’ central location and historic appearance, they have served as an iconic ceremonial backdrop for many important University events, such as opening and graduating convocations, as well as other ceremonies. Today, many of these events, such as convocations, take place in the central quad due to the need for a large audience capacity. However, the first University convocations took place outside of Gates-Blake Hall in what is today known as the Classics Quad (the southwesternmost quadrangle).`,
+                image: './static/images/1894_convo.jpg',
                 image_credit:
-                    'Tax, Residential Integration: The Case of Hyde Park in Chicago'
+                    'University of Chicago Photographic Archive, 1894'
             },
             {
                 id: '2.1',
-                text: `According to historian Arnold R. Hirsch, between 1933 and 1947, the University spent $83,597 to support legal assistance for the defense of racially restrictive covenants. These private agreements prohibited African Americans from buying property and living in certain neighborhoods, like Hyde Park. The University accomplished this goal by subsidizing neighborhood groups advocating for the covenants, such as the Woodlawn Property Owners League and the Hyde Park Property Owners Association. University President Hutchins maintained that residents of Hyde Park and nearby communities had the right to “invoke and defend” racially restrictive covenants as legal instruments.`,
-                quote: `"[The University] must endeavor to stabilize its neighborhood as an area in which its students and faculty will be content to live."`,
-                quoteAuthor:
-                    'President Maynard Hutchins, responding to <i>Chicago Defender</i> coverage in 1937',
-                quoteSource: ''
+                text: `In later years, Hutchinson Court (the northwesternmost quadrangle) would go on to host convocations, most likely due to the historic-appearing backdrop of Hutchinson Commons and Mitchell Tower. These formal uses underscore the key ceremonial use of the quadrangles.`,
+                image: './static/images/1910_convo.jpg',
+                image_credit:
+                    'University of Chicago Photographic Archive, 1910'
+            },
+
+            {
+                id: '2.2',
+                text: `At times, the quadrangles have been used to reinforce the University’s global visibility, as well. In 1977, during his visit to the United States, then-Prince Charles of the United Kingdom visited the University of Chicago, taking a stroll through the quadrangles, beginning in Hutchinson Court. Hutch Court’s architectural similarities to the quadrangles found at universities in the U.K. also contributed to the symbolism of the Prince's visit (especially considering that Hutchinson Court and Mitchell Tower are near-exact replicas of Oxford’s Christ Church Great Hall and Magdalen Tower, respectively). 18 years before him, his mother Queen Elizabeth II visited UChicago, as well (<a href='https://intranet.uchicago.edu/en/news-and-events/news/2024/10/uchicago-trivia-which-members-of-the-british-royal-family' target = "_blank">Inside UChicago</a>).`,
+                image: './static/images/charles_visit.jpg',
+                image_credit:
+                    'University of Chicago Photographic Archive, 1977'
             },
 
             {
                 id: '2.3',
                 text: `
-                In 1948, the <a href = "https://www.oyez.org/cases/1940-1955/334us1" target = "_blank">Shelley v. Kraemer</a> Supreme Court case outlawed racial covenants. After losing this legal tool, the Great Migration and continued fears of “racial succession” drove the University to find other ways to “stabilize” the surrounding communities.`,
+                Beyond formal events, the quadrangles are a popular spot for informal student life, including relaxation, socialization, and casual outdoor study sessions. Their accessible design encourages interaction among students, fostering a strong community spirit. Cobb’s original design intentionally encouraged regular social and intellectual interactions among students and faculty. These spaces exemplify how architecture directly shapes everyday experiences, with the quad remaining a vital community element at the University to this day.`,
                 timeline_year: 1948,
-                image: './static/images/shelleyvkramer.jpeg',
-                image_credit: 'University of Chicago Photographic Archive'
+                image: './static/images/college_quad.png',
+                image_credit: 'University of Chicago Instagram page, 2023'
             }
         ]
     },

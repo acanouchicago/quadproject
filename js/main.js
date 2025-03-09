@@ -1193,7 +1193,6 @@ function bodyWaypoints() {
     new Waypoint({
         element: document.getElementById('chapter2'),
         handler: function () {
-            removePopups();
         }
     });
 
@@ -1201,7 +1200,6 @@ function bodyWaypoints() {
         element: document.getElementById('demographics'),
         handler: function (direction) {
             if (direction == 'down') {
-                removePopups();
             } else {
             }
         },
@@ -1212,24 +1210,27 @@ function bodyWaypoints() {
         element: document.getElementById('2.1'),
         handler: function (direction) {
             if (direction == 'down') {
-                mapBody.setPaintProperty('covenants', 'raster-opacity', 0.7);
-                removePopups();
-                updateLayers(1950);
-                mapBody.flyTo({
-                    center: isMobile
-                        ? [-87.62954280979011, 41.812252875663404]
-                        : [-87.73, 41.81],
-                    zoom: isMobile ? 10 : 10.6,
-                    duration: zoomSpeed
-                });
             } else {
-                mapBody.setPaintProperty('covenants', 'raster-opacity', 0);
-                updateLayers(1925);
-                mapBody.flyTo({
-                    center: isMobile ? uChiLocationMobile : uChiLocationSide,
-                    zoom: isMobile ? 14 : 14.5,
-                    duration: zoomSpeed
-                });
+            }
+        },
+        offset: '50%'
+    });
+
+    new Waypoint({
+        element: document.getElementById('2.2'),
+        handler: function (direction) {
+            if (direction == 'down') {
+            } else {
+            }
+        },
+        offset: '50%'
+    });
+
+    new Waypoint({
+        element: document.getElementById('2.3'),
+        handler: function (direction) {
+            if (direction == 'down') {
+            } else {
             }
         },
         offset: '50%'
