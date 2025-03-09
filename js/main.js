@@ -499,7 +499,7 @@ function createOverlayMapLayers(map) {
     // Gates-Blake blue dot
     map.addSource('GB_blue', {
         type: 'image',
-        url: './static/images/BLOO.png',
+        url: './static/images/GBLOO.png',
         coordinates: [
             [-87.600863, 41.788474],
             [-87.600605, 41.788474],
@@ -521,7 +521,7 @@ function createOverlayMapLayers(map) {
     // Hutch blue dot
     map.addSource('Hutch_blue', {
         type: 'image',
-        url: './static/images/BLOO.png',
+        url: './static/images/HBLOO.png',
         coordinates: [
             [-87.598848, 41.791010],
             [-87.598578, 41.791010],
@@ -1245,12 +1245,12 @@ function bodyWaypoints() {
         handler: function (direction) {
             if (direction == 'down') {
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 1);
-                flashingInterval = flashLayer(mapBody, 'GB_blue', 0.5);
+                flashingInterval = flashLayer(mapBody, 'GB_blue', 50);
             } else {
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0);
             }
         },
-        offset: '99%'
+        offset: '50%'
     });
 
     new Waypoint({
@@ -1259,7 +1259,7 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 0);
                 mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 1);
-                flashingInterval = flashLayer(mapBody, 'Hutch_blue', 0.5);
+                flashingInterval = flashLayer(mapBody, 'Hutch_blue', 50);
             } else {
                 mapBody.setPaintProperty('Hutch_blue', 'raster-opacity', 0);
                 mapBody.setPaintProperty('GB_blue', 'raster-opacity', 1);
