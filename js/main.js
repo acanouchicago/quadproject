@@ -1181,6 +1181,16 @@ function bodyWaypoints() {
     });
 
     new Waypoint({
+        element: document.getElementById('1.5'),
+        handler: function (direction) {
+            if (direction == 'down') {
+            } else {
+            }
+        },
+        offset: '50%'
+    });
+
+    new Waypoint({
         element: document.getElementById('chapter2'),
         handler: function () {
             removePopups();

@@ -16,7 +16,7 @@ const config = [
             },
             {
                 id: '1.2',
-                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them. Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of partial, insular intimacy separate from the bustling streets of Chicago. While he certainly borrowed from earlier European models (most those of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 191-194</a>).`,
+                text: `The final plan designed by Cobb consisted of seven connected quadrangles enclosed by neo-Gothic-style buildings, intended to evoke the timeless traditions of medieval English colleges and the sense of authenticity that came along with them. Unlike many other American college campus layouts at the time, Cobb positioned the academic buildings around central courtyards, allowing for both circulation and visual consistency while maintaining a sense of partial, insular intimacy separate from the bustling streets of Chicago. While he certainly borrowed from earlier European models (most those of Oxford and Cambridge), Cobb reinterpreted the traditional forms for the modern American context. (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, pp. 191-194</a>).`,
                 timeline_year: 1890,
                 image: './static/images/Cobb_3D.jpg',
                 image_credit: '<i>The Arhitectural Record<i>, IV, No. 2, 1894'
@@ -38,8 +38,15 @@ const config = [
             {
                 id: '1.4',
                 text: `
-                Ultimately, the University of Chicago's quadrangles design resulted from a combination of architectural imagination, educational ideals, and late nineteenth-century Chicago's culture of ambition. The quadrangles were not just a group of new academic buildings—they were the deliberate vision of a university that intended to be well-embedded in the life of its city, intentionally designed to guide both intellectual life and civic identity for years to come (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, p. 212-213</a>).`,
+                Ultimately, the University of Chicago's quadrangles design resulted from a combination of architectural imagination, educational ideals, and late nineteenth-century Chicago's culture of ambition. The quadrangles were not just a group of new academic buildings—they were the deliberate vision of a university that intended to be well-embedded in the life of its city, intentionally designed to guide both intellectual life and civic identity for years to come (<a href='http://pi.lib.uchicago.edu/1001/cat/bib/11123170' target = "_blank">Wolner, pp. 212-213</a>).`,
                 timeline_year: 1927
+            },
+            {
+                id: '1.5',
+                text: `
+                A relatively more recent development in the design of the quad came in 2009, when the pathways were redesigned to make them more pedestrian-friendly (<a href='https://chronicle.uchicago.edu/090611/quad.shtml' target = "_blank">The University of Chicago Chronicle</a>). Before the redesign, the paths leading into the middle of the quad were asphalt roads, accessible to vehicles. However, the redesign removed public vehicle access to the quad, prioritizing the needs of pedestrians instead. This pedestrianization of the quad pathways reinforces the idea that the quad isn’t a mere thoroughfare, but rather a space for community and gathering—a public square.`,
+                image: './static/images/quad_ped.jpg',
+                image_credit: 'The University of Chicago Chronicle, 2009'
             }
         ]
     },
