@@ -946,36 +946,6 @@ function processChapter(chapter) {
 
         if (subsection.image) {
             if (subsection.id == '3.2') {
-                let comparison_div = document.createElement('div');
-                let image_comparison = `
-                    <img-comparison-slider class="slider-with-animated-handle">
-                        <figure slot="first" class="before">
-                            <img width="100%" src="./static/images/before_55.jpg" />
-                            <figcaption>1950</figcaption>
-                        </figure>
-                        <figure slot="second" class="after">
-                            <img width="100%" src="./static/images/after_55.jpg" />
-                            <figcaption>1961</figcaption>
-                        </figure>
-                        <svg
-                            slot="handle"
-                            class="custom-animated-handle"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="100"
-                            viewBox="-8 -3 16 6"
-                        >
-                            <path
-                                stroke="#fff"
-                                d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2"
-                                stroke-width="1"
-                                fill="#fff"
-                                vector-effect="non-scaling-stroke"
-                            ></path>
-                        </svg>
-                    </img-comparison-slider>
-                `;
-                comparison_div.innerHTML = image_comparison;
-                subsection_div.appendChild(comparison_div);
             } else {
                 let image_div = document.createElement('img');
                 image_div.src = subsection.image;
