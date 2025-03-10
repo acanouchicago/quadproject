@@ -1009,7 +1009,7 @@ function introWaypoints() {
                     1,
                     0,
                     0.005,
-                    4
+                    3
                 );
                 mapBody.setPaintProperty(
                     'uchicago_campus_line',
@@ -1045,7 +1045,7 @@ function introWaypoints() {
                     0,
                     1,
                     0.005,
-                    4
+                    3
                 );
             }
         },
@@ -1071,7 +1071,7 @@ function introWaypoints() {
         handler: function (direction) {
             const introDiv = document.getElementById('intro-text');
             if (direction == 'down') {
-                fadeInLayer(introDiv, 0, 1, 0.005, 4);
+                fadeInLayer(introDiv, 0, 1, 0.005, 3);
             } else {
                 introDiv.style.opacity = 0;
             }
@@ -1087,7 +1087,7 @@ function bodyWaypoints() {
             chapterDiv = document.getElementById('chapters-container');
             if (direction == 'down') {
                 // fade in
-                fadeInLayer(chapterDiv, 0, 1, 0.005, 4);
+                fadeInLayer(chapterDiv, 0, 1, 0.005, 3);
             } else {
                 chapterDiv.style.opacity = 0;
             }
@@ -1605,7 +1605,7 @@ function bodyWaypoints() {
 
                 yearSlider = document.getElementById('map-overlay-menu');
                 yearSlider.style.visibility = 'visible';
-                fadeInLayer(yearSlider, 0, 1, 0.01, 4);
+                fadeInLayer(yearSlider, 0, 1, 0.01, 3);
 
                 // enable popups
                 document.querySelector('#explore-button').dataset.active =
