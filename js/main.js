@@ -1338,7 +1338,7 @@ function bodyWaypoints() {
                 removePopups();
 
                 yearSlider = document.getElementById('map-overlay-menu');
-                yearSlider.style.visibility = 'hidden';
+                yearSlider.style.visibility = 'visible';
                 fadeInLayer(yearSlider, 0, 1, 0.01, 3);
 
                 // enable popups
