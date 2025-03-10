@@ -149,6 +149,24 @@ const config = [
             {
                 id: '3.5',
                 text: `
+                Finally, the University followed through on a suggestion in the 1949 Treasurer’s Report for the University to acquire all property in the strip of land from 60th to 61st Streets and from Cottage Grove to Stony Island Avenues to create a buffer zone between the campus and the “<a href = "https://cegu.uchicago.edu/2023/11/30/university-led-renewal/" target="_blank">deteriorating neighborhood</a>” of Woodlawn immediately to the South. The city purchased everything not yet owned by the University and then sold it to the University in a process that took a decade due to legal disputes and activist groups opposing the acquisition and the expansion. Notably, <a href = "https://www.wttw.com/dusable-to-obama/woodlawn-organization" target = "_blank">The Woodlawn Organization (T.W.O.)</a> successfully prevented the University from expanding further southward than 61st Street.`
+            },
+            {
+                id: '3.5a',
+                text: `Urban renewal fueled unrest across the city. In 1955, Black residents marched on city hall and demanded that Mayor Richard Daley address the discrimination against Black families, writes Eddie R. Cole in <i>The Campus Color Line</i>. Local leaders also raised concerns about the University’s role. “I see this whole area being controlled by a monolithic institution via its political puppets,” accused Wesley W. South, candidate for the 2nd Congressional district in 1968 in the <i>Chicago Defender</i>.`,
+                image: './static/images/ousts.png',
+                image_credit: '<i>Chicago Defender</i>, 1962'
+            },
+            {
+                id: '3.5b',
+                text: ``,
+                quote: `"Land clearance is perverted to Negro Clearance. Urban Renewal, despite its good intentions and its great possibilities, becomes a distortion and a false promise. Slums have not been eradicated but have been made mobile. Most of the new housing units erected, though providing good living, have not provided housing for those displaced."`,
+                quoteAuthor: `Executive Director of the Chicago Urban League Edwin C. Berry, 1962`,
+                quoteSource: ''
+            },
+            {
+                id: '3.6',
+                text: `
                 The encampment directly challenged the University’s  longstanding commitment to neutrality and free speech enshrined in its <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/KalvenRprt_0.pdf' target = "_blank">1967 Kalven Report</a> and the <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/FOECommitteeReport.pdf' target = "_blank">2014 “Chicago principles” report</a>, leading to widespread debate over whether the encampment constituted disruptive speech or protected political expression (<a href='https://www.nytimes.com/2024/05/06/us/university-of-chicago-protests-encampment.html' target = "_blank">The New York Times</a>).`,
                 quote: `"...the University may reasonably regulate the time, place, and manner of expression to ensure that it does not disrupt the ordinary activities of the University. But these are narrow exceptions to the general principle of freedom of expression, and it is vitally important that these exceptions never be used in a manner that is inconsistent with the University’s commitment to a completely free and open discussion of ideas."`,
                 quoteAuthor: '<i>Report of the Committee on Freedom of Expression</i>, 2014',
@@ -200,6 +218,32 @@ const config = [
             {
                 id: '4.7',
                 text: `The creation of a private campus shuttle system, an expanded patrol area for UCPD, the EAHP, and the consolidation of student amenities all contributed to creating what Eldred termed “invisible borders” around campus during the second half of the 20th century.`
+            }
+        ]
+    },
+    {
+        chapterTitle: '2007-2022: Expansion and Turning to the City',
+        chapterYears: '2007-2022',
+        id: '5',
+        image: './static/images/chapter5.jpg',
+
+        img_credit: 'UChicago Arts',
+        subsections: [
+            {
+                id: '5.1',
+                text: `
+                In 2006, University President Zimmer made his "<a href = "https://d3qi0qp55mx5f5.cloudfront.net/convocation/docs/zimmer.pdf?mtime=1517338474" target = "_blank">Back to the City</a>" speech, posing the question: “How should our relationship with the South Side community, city, and the region evolve?” In the following years, the University simultaneously sought to shrink its portfolio of residential properties acquired during Urban Renewal and the <a href = "https://chicagomaroon.com/20278/news/univ-to-sell-21-residential-properties-in-hyde-park/" target = "_blank">Great Recession</a> and expand non-residential real estate holdings.`
+            },
+            {
+                id: '5.2',
+                text: `The University <span class="highlight former">sold</span> over 1,200 apartment units and four lots in Hyde Park between 2004 and 2016 and has bought 26 mixed-use properties in Washington Park since 2008. They acquired commercial real estate, such as Harper Court in 2008 and the building now containing Jewel Osco, in 2020. Currently, the University owns the buildings containing four of the major grocery stores in the area.`
+            },
+            {
+                id: '5.3',
+                text: `
+                The University also invested in cultural development throughout the South Side through a partnership with the Hyde Park Arts Center, stewarding the Washington Park <a href = 'https://news.uchicago.edu/story/arts-lawn-community-centered-space-washington-park-celebrates-opening' target = "_blank">Arts Block</a> and opening the <a href = 'https://news.uchicago.edu/story/uchicago-opens-green-line-performing-arts-center-washington-park' target = "_blank">Green Line Performing Arts Center</a> in 2018.`,
+                image: './static/images/arts_block.jpg',
+                image_credit: 'Visual Manifesto'
             },
             {
                 id: 'final-scroller',
