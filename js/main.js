@@ -1299,9 +1299,6 @@ function bodyWaypoints() {
     new Waypoint({
         element: document.getElementById('chapter3'),
         handler: function (direction) {
-            if (direction == 'down') {
-            } else {
-            }
         },
         offset: '50%'
     });

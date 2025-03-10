@@ -118,28 +118,33 @@ const config = [
             },
             {
                 id: '3.1',
-                text: `The South East Chicago Commission (SECC) administered much of Hyde Park’s “urban renewal.” Much of the SECC leadership came from the University; Chancellor Kimpton chose Julian Levi (J.D. ’31) to chair the new Commission. Four main plans comprised Hyde Park’s urban renewal efforts: Hyde Park A + B, the Southwest Hyde Park Redevelopment Corporation Plan, the Hyde Park-Kenwood Urban Renewal Plan, and the South Campus Plan.`,
-                timeline_year: 1949,
-                quote: '"We are fighting for our lives. We simply cannot operate in slums."',
+                text: `The decision to occupy the western side of the central quadrangle specifically was deliberate and symbolic. Not only was the encampment occupying a central and historic part of the UChicago campus, it was also strategically located right in front of University administration in adjacent Edward H. Levi Hall. This increased the occupation’s visibility, making it impossible for administrators to ignore. Similar strategic choices informed the occupation of Zuccotti Park during Occupy Wall Street due to its proximity to financial institutions, and Tahrir Square during Egypt’s 2011 revolution due to its central civic significance to Cairo. In each of these instances, symbolic resonance has been vital in further amplifying the messages of protestors.`,
+                quote: '',
                 quoteAuthor:
-                    'University of Chicago Chancellor Lawrence Kimpton',
+                    '',
                 quoteSource: ''
             },
             {
                 id: '3.2',
-                text: `The Hyde Park A + B plan began in 1954. The Land Clearance Commission, a city agency, approved a plan to clear and redevelop approximately 48 acres of land. The intent was to replace “blighted” residences and businesses with groups of similar townhouses along both sides of 55th Street, the twin towers of I. M. Pei’s University Apartments in the middle of 55th Street, and a shopping center at 55th Street and Lake Park Avenue.`,
-                image: './static/images/placeholder.jpg',
+                text: `Protesters significantly transformed and adapted the design of the quad, erecting wooden barriers and makeshift fencing around the encampment to define boundaries. Similar to tactics used in Zuccotti Park and Tahrir Square, the encampment incorporated elements like barricades, designated zones, and communal spaces such as libraries and kitchens (<a href='https://lakeeffect.noblogs.org/post/2024/08/01/reflections-on-the-uchicago-popular-university-for-gaza-encampment/' target = "_blank">Lake Effect Collective</a>).`,
+                image: './static/images/encamp_library.jpg',
                 image_credit:
-                    'View of 55th St from Lake Park Blvd in 1950 and 1961<br>University of Chicago Photographic Archive'
+                    'Chicago Maroon'
             },
             {
                 id: '3.3',
                 text: `
-                Next, the Southwest Hyde Park Redevelopment Corporation used the <a href = "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2841&context=uclrev" target = "_blank">Neighborhood Redevelopment Corporation Act</a> to have the city acquire any privately owned land between the campus and Washington Park. Most of that area was marked for “rehabilitation.” The area from 55th to 56th Streets and from Cottage Grove to Ellis Avenues was slated for wholesale demolition and University acquisition.`
+                In a notable act of solidarity and support, a group of UChicago faculty publicly declared their willingness to risk arrest alongside students, defending the encampment as a justifiable exercise of the University’s stated values of inquiry and free expression. This support from professors underscored tensions between the administration’s response and the greater University community sentiment, further pitting University administration and protests against each other (<a href='https://www.nytimes.com/2024/05/06/us/uchicago-faculty-protest-encampment.html' target = "_blank">The New York Times</a>).`,
+                image: './static/images/encamp_prof.jpg',
+                image_credit:
+                    'The New York Times'
             },
             {
                 id: '3.4',
-                text: `The largest and most comprehensive phase was the Hyde Park-Kenwood Urban Renewal Plan, drawn up and approved in 1958. The University, through the SECC, was a main plan drafter. The plan focused on both total and “spot” clearance. It slated 638 structures containing 6,147 dwelling units for demolition and called for the creation and modernization of low- and high-density residential areas, parks, schools, residential and commercial areas, and more in their place.`
+                text: `In the eyes of the University administration, these spatial adaptations of the quad were in violation of the University policy that free speech must be non-disruptive, which led them to claim that police intervention was justifiable. The dismantling of the encampment by police was a clear message from the University that despite the Quadrangles’ general public character, institutional rules ultimately govern their use.`,
+                image: './static/images/encamp_police.jpg',
+                image_credit:
+                    'Chicago Maroon'
             },
             {
                 id: '3.5',
