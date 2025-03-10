@@ -60,14 +60,14 @@ const config = [
             {
                 id: 'demographics',
                 text: `
-                Given the quadrangles’ central location and historic appearance, they have served as an iconic ceremonial backdrop for many important University events, such as opening and graduating convocations, as well as other ceremonies. Today, many of these events, such as convocations, take place in the central quad due to the need for a large audience capacity. However, the first University convocations took place outside of Gates-Blake Hall in what is today known as the Classics Quad (the southwesternmost quadrangle).`,
+                Given the quadrangles’ central location and historic appearance, they have served as an iconic ceremonial backdrop for many important University events, such as opening and graduating convocations, as well as other ceremonies. Today, many of these events, such as convocations, take place in the central quad due to the need for a large audience capacity. However, the first University convocations took place outside of Gates-Blake Hall in what is today known as the <span class="highlight bloocolor">Classics Quad</span> (the southwesternmost quadrangle).`,
                 image: './static/images/1894_convo.jpg',
                 image_credit:
                     'University of Chicago Photographic Archive, 1894'
             },
             {
                 id: '2.1',
-                text: `In later years, Hutchinson Court (the northwesternmost quadrangle) would go on to host convocations, most likely due to the historic-appearing backdrop of Hutchinson Commons and Mitchell Tower. These formal uses underscore the key ceremonial use of the quadrangles.`,
+                text: `In later years, <span class="highlight bloocolor">Hutchinson Court</span> (the northwesternmost quadrangle) would go on to host convocations, most likely due to the historic-appearing backdrop of Hutchinson Commons and Mitchell Tower. These formal uses underscore the key ceremonial use of the quadrangles.`,
                 image: './static/images/1910_convo.jpg',
                 image_credit:
                     'University of Chicago Photographic Archive, 1910'
@@ -75,7 +75,7 @@ const config = [
 
             {
                 id: '2.2',
-                text: `At times, the quadrangles have been used to reinforce the University’s global visibility, as well. In 1977, during his visit to the United States, then-Prince Charles of the United Kingdom visited the University of Chicago, taking a stroll through the quadrangles, beginning in Hutchinson Court. Hutch Court’s architectural similarities to the quadrangles found at universities in the U.K. also contributed to the symbolism of the Prince's visit (especially considering that Hutchinson Court and Mitchell Tower are near-exact replicas of Oxford’s Christ Church Great Hall and Magdalen Tower, respectively). 18 years before him, his mother Queen Elizabeth II visited UChicago, as well (<a href='https://intranet.uchicago.edu/en/news-and-events/news/2024/10/uchicago-trivia-which-members-of-the-british-royal-family' target = "_blank">Inside UChicago</a>).`,
+                text: `At times, the quadrangles have been used to reinforce the University’s global visibility, as well. In 1977, during his visit to the United States, then-Prince Charles of the United Kingdom visited the University of Chicago, taking a stroll through the quadrangles, beginning in <span class="highlight bloocolor">Hutchinson Court</span>. Hutch Court’s architectural similarities to the quadrangles found at universities in the U.K. also contributed to the symbolism of the Prince's visit (especially considering that Hutchinson Court and Mitchell Tower are near-exact replicas of Oxford’s Christ Church Great Hall and Magdalen Tower, respectively). 18 years before him, his mother Queen Elizabeth II visited UChicago, as well (<a href='https://intranet.uchicago.edu/en/news-and-events/news/2024/10/uchicago-trivia-which-members-of-the-british-royal-family' target = "_blank">Inside UChicago</a>).`,
                 image: './static/images/charles_visit.jpg',
                 image_credit:
                     'University of Chicago Photographic Archive, 1977'
