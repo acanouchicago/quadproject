@@ -1357,7 +1357,7 @@ function bodyWaypoints() {
     });
 
     new Waypoint({
-        element: document.getElementById('3.5'),
+        element: document.getElementById('3.6'),
         handler: function (direction) {
             if (direction == 'down') {
             } else {
