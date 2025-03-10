@@ -102,11 +102,10 @@ const config = [
             {
                 id: '3.0',
                 text: `
-                With the outlawing of racial covenants, the Black population in the University’s immediate surroundings continued to increase: Hyde Park had 573 Black residents in 1940 and 1,757 in 1950, most of whom had arrived after 1948, according to Hirsch’s <i>Making the Second Ghetto</i>. Hirsch writes that the University saw maintaining a “desirable” neighborhood as tied to its survival and key to its academic mission. It began substantial property acquisition and “blight removal,” (a term used in the University of Chicago’s 1949 Treasurer’s report) making it the first American higher education institution to embark on a comprehensive urban renewal campaign.`,
-                quote: `"I believe we have found the answer. It is called 'Urban Renewal' ... it is, however, a tragic fact that these efforts are today essential to the ability of the institutions to fulfill their primary responsibilities."`,
-                quoteAuthor:
-                    'Julian Levi, South East Chicago Commission (SECC) executive director and later professor at the University of Chicago',
-                quoteSource: 'Haar, The City as Campus'
+                The UChicago quadrangles have long been a staging ground for student activism, testing the university’s longstanding commitment to free expression. Notable protests include a 1962 sit-in (led by future U.S. senator Bernie Sanders) protesting housing segregation, a major 1969 sit-in protesting faculty firing practices, and a 2016 protest demanding a trauma center for the South Side community. Each of these disruptions redefined the boundaries of acceptable action on campus, setting precedents that would influence future demonstrations, such as the 2024 Gaza solidarity encampment (<a href='https://chicagomaroon.com/22421/grey-city/history-disrupting-peace/' target = "_blank">Chicago Maroon</a>). `,
+                image: './static/images/charles_visit.jpg',
+                image_credit:
+                    'University of Chicago Photographic Archive, 1977'
             },
             {
                 id: '3.0a',
