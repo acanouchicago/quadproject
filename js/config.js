@@ -158,15 +158,6 @@ const config = [
                 quote: `"Land clearance is perverted to Negro Clearance. Urban Renewal, despite its good intentions and its great possibilities, becomes a distortion and a false promise. Slums have not been eradicated but have been made mobile. Most of the new housing units erected, though providing good living, have not provided housing for those displaced."`,
                 quoteAuthor: `Executive Director of the Chicago Urban League Edwin C. Berry, 1962`,
                 quoteSource: ''
-            },
-
-            {
-                id: '3.6',
-                text: `
-                The encampment directly challenged the University’s  longstanding commitment to neutrality and free speech enshrined in its <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/KalvenRprt_0.pdf' target = "_blank">1967 Kalven Report</a> and the <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/FOECommitteeReport.pdf' target = "_blank">2014 “Chicago principles” report</a>, leading to widespread debate over whether the encampment constituted disruptive speech or protected political expression (<a href='https://www.nytimes.com/2024/05/06/us/university-of-chicago-protests-encampment.html' target = "_blank">The New York Times</a>).`,
-                quote: `"...the University may reasonably regulate the time, place, and manner of expression to ensure that it does not disrupt the ordinary activities of the University. But these are narrow exceptions to the general principle of freedom of expression, and it is vitally important that these exceptions never be used in a manner that is inconsistent with the University’s commitment to a completely free and open discussion of ideas."`,
-                quoteAuthor: '<i>Report of the Committee on Freedom of Expression</i>, 2014',
-                quoteSource: ''
             }
         ]
     },
