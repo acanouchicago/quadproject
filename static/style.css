@@ -60,7 +60,7 @@ body {
 }
 
 .map-container-intro {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     margin: auto;
     top: 0;
