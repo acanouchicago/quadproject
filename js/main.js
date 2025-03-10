@@ -499,7 +499,7 @@ function createOverlayMapLayers(map) {
     // Encampment outline
     map.addSource('encampment_outline', {
         type: 'image',
-        url: './static/images/encampment_outline.jpg',
+        url: './static/images/encampment_outline.png',
         coordinates: [
             [-87.600846, 41.789932],
             [-87.599651, 41.789926],
