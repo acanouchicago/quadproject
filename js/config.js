@@ -108,14 +108,14 @@ const config = [
                     'University of Chicago Photographic Archive, 1969'
             },
             {
-                id: '3.0a',
+                id: '3.1',
                 text: `On April 29, 2024, following other protests across the United States in support of Gazans in their conflict with Israel, approximately 100 students set up about 20 tents on the western side of the Main Quadrangles, establishing the “UChicago Popular University for Gaza” encampment. The protestors demanded the university divest from companies connected to Israeli weapons manufacturers. The encampment quickly expanded, growing into a lively space of political education, debate, and communal solidarity as students vowed to remain until their demands were met (<a href='https://chicagomaroon.com/42199/news/live-updates-pro-palestine-encampment-on-quad/' target = "_blank">Chicago Maroon</a>).`,
                 image: './static/images/day1_encamp.jpg',
                 image_credit:
                     'Chicago Maroon'
             },
             {
-                id: '3.1',
+                id: '3.2',
                 text: `The South East Chicago Commission (SECC) administered much of Hyde Park’s “urban renewal.” Much of the SECC leadership came from the University; Chancellor Kimpton chose Julian Levi (J.D. ’31) to chair the new Commission. Four main plans comprised Hyde Park’s urban renewal efforts: Hyde Park A + B, the Southwest Hyde Park Redevelopment Corporation Plan, the Hyde Park-Kenwood Urban Renewal Plan, and the South Campus Plan.`,
                 timeline_year: 1949,
                 quote: '"We are fighting for our lives. We simply cannot operate in slums."',
@@ -124,23 +124,23 @@ const config = [
                 quoteSource: ''
             },
             {
-                id: '3.2',
+                id: '3.3',
                 text: `The Hyde Park A + B plan began in 1954. The Land Clearance Commission, a city agency, approved a plan to clear and redevelop approximately 48 acres of land. The intent was to replace “blighted” residences and businesses with groups of similar townhouses along both sides of 55th Street, the twin towers of I. M. Pei’s University Apartments in the middle of 55th Street, and a shopping center at 55th Street and Lake Park Avenue.`,
                 image: './static/images/placeholder.jpg',
                 image_credit:
                     'View of 55th St from Lake Park Blvd in 1950 and 1961<br>University of Chicago Photographic Archive'
             },
             {
-                id: '3.3',
+                id: '3.4',
                 text: `
                 Next, the Southwest Hyde Park Redevelopment Corporation used the <a href = "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2841&context=uclrev" target = "_blank">Neighborhood Redevelopment Corporation Act</a> to have the city acquire any privately owned land between the campus and Washington Park. Most of that area was marked for “rehabilitation.” The area from 55th to 56th Streets and from Cottage Grove to Ellis Avenues was slated for wholesale demolition and University acquisition.`
             },
             {
-                id: '3.4',
+                id: '3.5',
                 text: `The largest and most comprehensive phase was the Hyde Park-Kenwood Urban Renewal Plan, drawn up and approved in 1958. The University, through the SECC, was a main plan drafter. The plan focused on both total and “spot” clearance. It slated 638 structures containing 6,147 dwelling units for demolition and called for the creation and modernization of low- and high-density residential areas, parks, schools, residential and commercial areas, and more in their place.`
             },
             {
-                id: '3.5',
+                id: '3.6',
                 text: `
                 Finally, the University followed through on a suggestion in the 1949 Treasurer’s Report for the University to acquire all property in the strip of land from 60th to 61st Streets and from Cottage Grove to Stony Island Avenues to create a buffer zone between the campus and the “<a href = "https://cegu.uchicago.edu/2023/11/30/university-led-renewal/" target="_blank">deteriorating neighborhood</a>” of Woodlawn immediately to the South. The city purchased everything not yet owned by the University and then sold it to the University in a process that took a decade due to legal disputes and activist groups opposing the acquisition and the expansion. Notably, <a href = "https://www.wttw.com/dusable-to-obama/woodlawn-organization" target = "_blank">The Woodlawn Organization (T.W.O.)</a> successfully prevented the University from expanding further southward than 61st Street.`
             }
