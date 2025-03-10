@@ -109,10 +109,10 @@ const config = [
             },
             {
                 id: '3.0a',
-                text: ``,
-                quote: `"Beginning in the early 1940s, signs of deterioration around the University were evident. As a result of the Depression and the war, many buildings had not been maintained for 15 years, and there had been little new investment in the area... The heavy migration of blacks from the South to Chicago resulted in severe population pressures on the South Side... which led to predatory real estate practices: slumlords illegally converting six flats into twenty-four-unit rooming houses charging exorbitant rental rates, and not maintaining buildings to code."`,
-                quoteAuthor: `Former University Dean and Senior Advisor to the University President John Boyer, <i>The University of Chicago: A History</i>`,
-                quoteSource: ''
+                text: `On April 29, 2024, following other protests across the United States in support of Gazans in their conflict with Israel, approximately 100 students set up about 20 tents on the western side of the Main Quadrangles, establishing the “UChicago Popular University for Gaza” encampment. The protestors demanded the university divest from companies connected to Israeli weapons manufacturers. The encampment quickly expanded, growing into a lively space of political education, debate, and communal solidarity as students vowed to remain until their demands were met (<a href='https://chicagomaroon.com/42199/news/live-updates-pro-palestine-encampment-on-quad/' target = "_blank">Chicago Maroon</a>).`,
+                image: './static/images/day1_encamp.jpg',
+                image_credit:
+                    'Chicago Maroon'
             },
             {
                 id: '3.1',
@@ -143,28 +143,6 @@ const config = [
                 id: '3.5',
                 text: `
                 Finally, the University followed through on a suggestion in the 1949 Treasurer’s Report for the University to acquire all property in the strip of land from 60th to 61st Streets and from Cottage Grove to Stony Island Avenues to create a buffer zone between the campus and the “<a href = "https://cegu.uchicago.edu/2023/11/30/university-led-renewal/" target="_blank">deteriorating neighborhood</a>” of Woodlawn immediately to the South. The city purchased everything not yet owned by the University and then sold it to the University in a process that took a decade due to legal disputes and activist groups opposing the acquisition and the expansion. Notably, <a href = "https://www.wttw.com/dusable-to-obama/woodlawn-organization" target = "_blank">The Woodlawn Organization (T.W.O.)</a> successfully prevented the University from expanding further southward than 61st Street.`
-            },
-            {
-                id: '3.5a',
-                text: `Urban renewal fueled unrest across the city. In 1955, Black residents marched on city hall and demanded that Mayor Richard Daley address the discrimination against Black families, writes Eddie R. Cole in <i>The Campus Color Line</i>. Local leaders also raised concerns about the University’s role. “I see this whole area being controlled by a monolithic institution via its political puppets,” accused Wesley W. South, candidate for the 2nd Congressional district in 1968 in the <i>Chicago Defender</i>.`,
-                image: './static/images/ousts.png',
-                image_credit: '<i>Chicago Defender</i>, 1962'
-            },
-            {
-                id: '3.5b',
-                text: ``,
-                quote: `"Land clearance is perverted to Negro Clearance. Urban Renewal, despite its good intentions and its great possibilities, becomes a distortion and a false promise. Slums have not been eradicated but have been made mobile. Most of the new housing units erected, though providing good living, have not provided housing for those displaced."`,
-                quoteAuthor: `Executive Director of the Chicago Urban League Edwin C. Berry, 1962`,
-                quoteSource: ''
-            },
-
-            {
-                id: '3.6',
-                text: `
-                The encampment directly challenged the University’s  longstanding commitment to neutrality and free speech enshrined in its <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/KalvenRprt_0.pdf' target = "_blank">1967 Kalven Report</a> and the <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/FOECommitteeReport.pdf' target = "_blank">2014 “Chicago principles” report</a>, leading to widespread debate over whether the encampment constituted disruptive speech or protected political expression (<a href='https://www.nytimes.com/2024/05/06/us/university-of-chicago-protests-encampment.html' target = "_blank">The New York Times</a>).`,
-                quote: `"...the University may reasonably regulate the time, place, and manner of expression to ensure that it does not disrupt the ordinary activities of the University. But these are narrow exceptions to the general principle of freedom of expression, and it is vitally important that these exceptions never be used in a manner that is inconsistent with the University’s commitment to a completely free and open discussion of ideas."`,
-                quoteAuthor: '<i>Report of the Committee on Freedom of Expression</i>, 2014',
-                quoteSource: ''
             }
         ]
     },
