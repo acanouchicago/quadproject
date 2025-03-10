@@ -155,6 +155,11 @@ const config = [
                 quoteSource: ''
             },
             {
+                id: 'conclusion',
+                text: `The Main Quadrangles at the University of Chicago exemplify the complex and evolving nature of public squares, serving as both an architectural community centerpiece and a vibrant social zone that can be used to enact change. Through formal ceremonies, informal student gatherings, and demonstrations such as the 2024 Gaza encampment, the quad remains a contested yet important public forum for the University.
+Along with the encampment came a test of the university’s historical commitments to neutrality, free expression, and authority, demonstrating how architectural and spatial design can both enable and restrict social actions. As the University moves forward, the quad will likely continue to serve as a notable reflection of UChicago’s identity: balancing tradition and modernity, authority and activism, formal ideals and informal realities, and above all, reflecting the constantly evolving relationship between institutions and the communities they serve.`
+            },
+            {
                 id: 'final-scroller',
                 text: ``
             }
