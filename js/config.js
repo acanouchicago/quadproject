@@ -109,7 +109,10 @@ const config = [
             },
             {
                 id: '3.1',
-                text: `On April 29, 2024, following other protests across the United States in support of Gazans in their conflict with Israel, approximately 100 students set up about 20 tents on the western side of the Main Quadrangles, establishing the “UChicago Popular University for Gaza” encampment. The protestors demanded the university divest from companies connected to Israeli weapons manufacturers. The encampment quickly expanded, growing into a lively space of political education, debate, and communal solidarity as students vowed to remain until their demands were met (<a href='https://chicagomaroon.com/42199/news/live-updates-pro-palestine-encampment-on-quad/' target = "_blank">Chicago Maroon</a>).`
+                text: `On April 29, 2024, following other protests across the United States in support of Gazans in their conflict with Israel, approximately 100 students set up about 20 tents on the western side of the Main Quadrangles, establishing the “UChicago Popular University for Gaza” encampment. The protestors demanded the university divest from companies connected to Israeli weapons manufacturers. The encampment quickly expanded, growing into a lively space of political education, debate, and communal solidarity as students vowed to remain until their demands were met .`,
+                image: './static/images/day1_encamp.jpg',
+                image_credit:
+                    'Chicago Maroon'
             },
             {
                 id: '3.2',
