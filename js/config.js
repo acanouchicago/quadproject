@@ -176,53 +176,6 @@ const config = [
         ]
     },
     {
-        chapterTitle: '1963-2006: Spatial Intervention and Invisible Borders',
-        chapterYears: '1963-2006',
-        id: '4',
-        image: './static/images/chapter4.jpg',
-        img_credit: 'University of Chicago Photographic Archive',
-        subsections: [
-            {
-                id: '4.1',
-                text: `After the period of urban renewal, the University widened its reach into the community in the name of student safety, not through property acquisition.`,
-                timeline_year: 1963
-            },
-            {
-                id: '4.2',
-                text: `
-                In 1957, the University created the UC Bus, the first iteration of the on-campus shuttle system. Marc David Loeb (A.B. ’21) <a href = "https://humanities-web.s3.us-east-2.amazonaws.com/college/chicagostudies-prod/s3fs-public/2021-05/Loeb,%20Marc%20-%20Building%20a%20Selective%20Permeability%20of%20Space%20-%20Urban%20Renewal%20and%20The%20University%20of%20Chicago%20Campus%20Shuttle%20System.pdf" target = "_blank">argued</a> that the shuttle system was “reappropriated as a tool of urban renewal,” granting the University freedom to delineate and extend the borders of campus. The shuttle system has added eight new routes since it was created, including a <a href = "https://safety-security.uchicago.edu/en/news-alerts/2021-09-03-transportation-parking-announces" target = "_blank">new route</a> from campus to the Green and Red Line Garfield stations and the Washington Park Arts Incubator in 2021.`
-            },
-            {
-                id: '4.3',
-                text: `
-                Several right-of-way street modifications took place during the 1970s, Juliet Eldred (A.B. ’17) writes in her thesis, <a href = "https://www.julieteldred.com/thesis" target = "_blank">The University of Chicago as Urban Planner</a>, arguing that these changes created an explicit division between the University and the neighborhood of Woodlawn. A narrow, tree-lined buffer cuts University Avenue off from 61st Street; Kimbark Avenue dead-ends approximately halfway into the block; Kenwood Avenue is split into a parking lot from the north and a cul-de-sac from the south; and Blackstone Avenue is almost entirely nonexistent between 60th and 61st Streets.`,
-                timeline_year: 1970
-            },
-            {
-                id: '4.4',
-                text: `
-                The expansion of the University’s private security force enabled it to patrol areas beyond the boundaries of campus proper. “Providing definite boundary limits to the campus... [would] facilitate effective security activities,” Levi said. The SECC also lobbied for the extension of UCPD patrols. By 1980, the UCPD patrol area extended from 47th to 61st Streets, and Cottage Grove Avenue to Lake Shore Drive. When the University’s charter schools opened, <a href = "https://d3qi0qp55mx5f5.cloudfront.net/safety-security/uploads/files/Extended_Patrol_Map.pdf" target = "_blank">UCPD’s patrol jurisdiction expanded</a> to include them, now extending from 37th Street to the north, 64th Street to the south, Lake Shore Drive to the east, and Cottage Grove Avenue to the west.`,
-                timeline_year: 1980
-            },
-
-            {
-                id: '4.5',
-                text: `
-                The University has had an ever-increasing role in shaping the neighborhood housing landscape. Since 2003, the University’s <a href = "https://ucce.s3.eu-west-2.amazonaws.com/store/b51c4f8ef138f22488f40c5496aa030c.pdf" target = "_blank">Employer-Assisted Housing Program</a> (EAHP), operated by the Office of Civic Engagement, has aided more than 300 University employees in buying homes in several South Side neighborhoods.`,
-                timeline_year: 1990
-            },
-            {
-                id: '4.6',
-                text: `
-                During the early 2000s, the University formulated a new plan to reimagine residential life on campus by constructing new housing, dining, and recreational facilities within walking distance of the central quadrangles. New facilities included a transformed student center in the Reynolds Club and Ratner Athletics Center, the first new athletics facility built on campus since 1935. In 2002, the Max Palevsky Residential Commons were built, beginning a pattern of large dorms built on campus; in subsequent years, three more large dorms were built on campus. These additions brought necessities and leisure <a href = "https://chicagomaroon.com/42601/grey-city/the-case-of-the-checkerboard-blues/" target = "_blank">closer to campus</a>.`
-            },
-            {
-                id: '4.7',
-                text: `The creation of a private campus shuttle system, an expanded patrol area for UCPD, the EAHP, and the consolidation of student amenities all contributed to creating what Eldred termed “invisible borders” around campus during the second half of the 20th century.`
-            }
-        ]
-    },
-    {
         subsections: [
             {
                 id: 'final-scroller',
