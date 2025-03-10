@@ -172,11 +172,7 @@ const config = [
                 quote: `"...the University may reasonably regulate the time, place, and manner of expression to ensure that it does not disrupt the ordinary activities of the University. But these are narrow exceptions to the general principle of freedom of expression, and it is vitally important that these exceptions never be used in a manner that is inconsistent with the University’s commitment to a completely free and open discussion of ideas."`,
                 quoteAuthor: '<i>Report of the Committee on Freedom of Expression</i>, 2014',
                 quoteSource: ''
-            }
-        ]
-    },
-    {
-        subsections: [
+            },
             {
                 id: 'final-scroller',
                 text: ``
