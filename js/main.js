@@ -1675,7 +1675,10 @@ function init() {
     config = JSON.parse(sessionStorage.getItem('config'));
     processConfig(config);
 
-
+    // hacky fix for only quote
+    quoteOnly = document.getElementById('3.0a');
+    quoteOnlyCredit = quoteOnly.querySelector('.credit');
+    quoteOnlyCredit.style.margin = 0;
 
     // create maps
     mapIntro = createMap('map-intro', 'intro', generalUChiLocation, 14.6);
