@@ -102,14 +102,14 @@ const config = [
             {
                 id: '3.0',
                 text: `
-                TEST. `,
+                The UChicago quadrangles have long been a staging ground for student activism, testing the university’s longstanding commitment to free expression. Notable protests include a 1962 sit-in (led by future U.S. senator Bernie Sanders) protesting housing segregation, a major 1969 sit-in protesting faculty firing practices, and a 2016 protest demanding a trauma center for the South Side community. Each of these disruptions redefined the boundaries of acceptable action on campus, setting precedents that would influence future demonstrations, such as the 2024 Gaza solidarity encampment (<a href='https://chicagomaroon.com/22421/grey-city/history-disrupting-peace/' target = "_blank">Chicago Maroon</a>). `,
                 image: './static/images/60_quad_protest.jpg',
                 image_credit:
                     'University of Chicago Photographic Archive, 1969'
             },
             {
                 id: '3.0a',
-                text: `On April 29, 2024, following other protests across the United States in support of Gazans in their conflict with Israel, approximately 100 students set up about 20 tents on the western side of the Main Quadrangles, establishing the “UChicago Popular University for Gaza” encampment. The protestors demanded the university divest from companies connected to Israeli weapons manufacturers. The encampment quickly expanded, growing into a lively space of political education, debate, and communal solidarity as students vowed to remain until their demands were met (<a href='https://chicagomaroon.com/42199/news/live-updates-pro-palestine-encampment-on-quad/' target = "_blank">Chicago Maroon</a>).`,
+                text: `A NORMAL SENTENCE WITH WORDIONSFUYEWBSFUEWHSDUOEWGDHFYUSGHRFOU8EWGFOU8YGYFGO823G;OWEVFDI7W8YGDIYASFO87EWGFO87WEGO837TGP89ODO7ASDFGP8WFGOW7GISDJFVAE9P8DFH0Y387G3O87GR4O389JDWHOEDYF8WE7GR38O07GFP98ERHFP397GF3O847G8O347GRP9734GFO873FV8P73GP837GR7634G83UBFO876EVO873EGO783GE8734RGF7963EGDP973EGHDO7836GR837GHP89347RG80734GFP98HCOUFVIUDWYFGO87WE6GR3O782UGBPW87GDOUWYFVWEO67DGW87EUDHPWE87GDP8WEDG8EWIUGDFO8W7EFGEWP9;OIUG3287ORG3P49R7G34R87G34PR87GW8O7IUBFUYVSDOUYWEGFDO76EW87U3BDUYWG763GEIUWVUYOFWEGRUBWELURYGOW8E7RTGO87WERTGWEYBDOUWYEGDOUWEGYOYWGERGOBWEDB8USBDUYSDVKUYSDTVCYTVFWEIUFWEOUYDUWEYBDUYEWVDOUWYEVDIUYWELDGVULWYEDVWLEUYDVW78EYUBVEWLUYWEHIBWDUYBDILUWEHBDYUWEDVBLWEHJDB WHJEVDUYWEFDLJWHEBDLHUWEBDLUWYEDHBWELUY.`,
                 quote: ``,
                 quoteAuthor: ``,
                 quoteSource: '',
