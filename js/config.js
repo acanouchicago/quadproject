@@ -109,7 +109,7 @@ const config = [
             },
             {
                 id: '3.0a',
-                text: `testNOpunctuation`,
+                text: `test`,
                 quote: ``,
                 quoteAuthor: ``,
                 quoteSource: '',
