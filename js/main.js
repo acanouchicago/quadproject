@@ -496,6 +496,28 @@ function createOverlayMapLayers(map) {
         }
     });
 
+    // Encampment outline
+    map.addSource('encampment_outline', {
+        type: 'image',
+        url: './static/images/encampment_outline.jpg',
+        coordinates: [
+            [-87.600846, 41.789932],
+            [-87.599651, 41.789926],
+            [-87.599527, 41.789058],
+            [-87.600766, 41.789079]
+        ]
+    });
+
+    map.addLayer({
+        id: 'encampment_outline',
+        type: 'raster',
+        source: 'encampment_outline',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
     // Gates-Blake blue dot
     map.addSource('GB_blue', {
         type: 'image',
@@ -1296,10 +1318,12 @@ function bodyWaypoints() {
     });
 
     new Waypoint({
-        element: document.getElementById('3.0'),
+        element: document.getElementById('3.0a'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty('encampment_outline', 'raster-opacity', 0.999);
             } else {
+                mapBody.setPaintProperty('encampment_outline', 'raster-opacity', 0);
             }
         },
         offset: '50%'
@@ -1344,10 +1368,12 @@ function bodyWaypoints() {
     });
 
     new Waypoint({
-        element: document.getElementById('3.4'),
+        element: document.getElementById('conclusion'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty('encampment_outline', 'raster-opacity', 0);
             } else {
+                mapBody.setPaintProperty('encampment_outline', 'raster-opacity', 0.999);
             }
         },
         offset: '50%'
