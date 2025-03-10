@@ -109,10 +109,12 @@ const config = [
             },
             {
                 id: '3.0a',
-                text: ``,
-                quote: `"Beginning in the early 1940s, signs of deterioration around the University were evident. As a result of the Depression and the war, many buildings had not been maintained for 15 years, and there had been little new investment in the area... The heavy migration of blacks from the South to Chicago resulted in severe population pressures on the South Side... which led to predatory real estate practices: slumlords illegally converting six flats into twenty-four-unit rooming houses charging exorbitant rental rates, and not maintaining buildings to code."`,
-                quoteAuthor: `Former University Dean and Senior Advisor to the University President John Boyer, <i>The University of Chicago: A History</i>`,
-                quoteSource: ''
+                text: `TEST`,
+                quote: ``,
+                quoteAuthor: ``,
+                quoteSource: '',
+                image: './static/images/day1_encamp.jpg',
+                image_credit: 'Chicago Maroon'
             },
             {
                 id: '3.1',
