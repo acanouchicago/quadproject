@@ -951,6 +951,7 @@ function processChapter(chapter) {
                 image_div.src = subsection.image;
                 image_div.className = 'scroller-image';
                 subsection_div.appendChild(image_div);
+            }
             let credit = document.createElement('p');
             credit.className = 'credit';
             credit.innerHTML = subsection.image_credit;
