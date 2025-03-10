@@ -1680,7 +1680,7 @@ function init() {
     quoteOnlyCredit = quoteOnly.querySelector('.credit');
     quoteOnlyCredit.style.margin = 0;
 
-    quoteOnly = document.getElementById('3.5b');
+    quoteOnly = document.getElementById('3.1');
     quoteOnlyCredit = quoteOnly.querySelector('.credit');
     quoteOnlyCredit.style.margin = 0;
 
