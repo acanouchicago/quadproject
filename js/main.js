@@ -1307,16 +1307,6 @@ function bodyWaypoints() {
     });
 
     new Waypoint({
-        element: document.getElementById('3.0'),
-        handler: function (direction) {
-            if (direction == 'down') {
-            } else {
-            }
-        },
-        offset: '50%'
-    });
-
-    new Waypoint({
         element: document.getElementById('3.1'),
         handler: function (direction) {
             if (direction == 'down') {
