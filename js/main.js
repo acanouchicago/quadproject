@@ -945,13 +945,10 @@ function processChapter(chapter) {
         // if there is a photo add it above text in a new div
 
         if (subsection.image) {
-            if (subsection.id == '3.2') {
-            } else {
-                let image_div = document.createElement('img');
-                image_div.src = subsection.image;
-                image_div.className = 'scroller-image';
-                subsection_div.appendChild(image_div);
-            }
+            let image_div = document.createElement('img');
+            image_div.src = subsection.image;
+            image_div.className = 'scroller-image';
+            subsection_div.appendChild(image_div);
             let credit = document.createElement('p');
             credit.className = 'credit';
             credit.innerHTML = subsection.image_credit;
