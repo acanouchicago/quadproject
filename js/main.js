@@ -945,10 +945,12 @@ function processChapter(chapter) {
         // if there is a photo add it above text in a new div
 
         if (subsection.image) {
-            let image_div = document.createElement('img');
-            image_div.src = subsection.image;
-            image_div.className = 'scroller-image';
-            subsection_div.appendChild(image_div);
+            if (subsection.id == '3.1') {
+            } else {
+                let image_div = document.createElement('img');
+                image_div.src = subsection.image;
+                image_div.className = 'scroller-image';
+                subsection_div.appendChild(image_div);
             let credit = document.createElement('p');
             credit.className = 'credit';
             credit.innerHTML = subsection.image_credit;
@@ -1677,6 +1679,10 @@ function init() {
 
     // hacky fix for only quote
     quoteOnly = document.getElementById('3.0a');
+    quoteOnlyCredit = quoteOnly.querySelector('.credit');
+    quoteOnlyCredit.style.margin = 0;
+
+    quoteOnly = document.getElementById('3.5b');
     quoteOnlyCredit = quoteOnly.querySelector('.credit');
     quoteOnlyCredit.style.margin = 0;
 

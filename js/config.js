@@ -140,14 +140,14 @@ const config = [
                     'The New York Times'
             },
             {
-                id: '3.4',
+                id: '3.5',
                 text: `In the eyes of the University administration, these spatial adaptations of the quad were in violation of the University policy that free speech must be non-disruptive, which led them to claim that police intervention was justifiable. The dismantling of the encampment by police was a clear message from the University that despite the Quadrangles’ general public character, institutional rules ultimately govern their use.`,
                 image: './static/images/encamp_police.jpg',
                 image_credit:
                     'Chicago Maroon'
             },
             {
-                id: '3.5',
+                id: '3.5b',
                 text: `
                 The encampment directly challenged the University’s  longstanding commitment to neutrality and free speech enshrined in its <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/KalvenRprt_0.pdf' target = "_blank">1967 Kalven Report</a> and the <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/FOECommitteeReport.pdf' target = "_blank">2014 “Chicago principles” report</a>, leading to widespread debate over whether the encampment constituted disruptive speech or protected political expression (<a href='https://www.nytimes.com/2024/05/06/us/university-of-chicago-protests-encampment.html' target = "_blank">The New York Times</a>).`,
                 quote: `"...the University may reasonably regulate the time, place, and manner of expression to ensure that it does not disrupt the ordinary activities of the University. But these are narrow exceptions to the general principle of freedom of expression, and it is vitally important that these exceptions never be used in a manner that is inconsistent with the University’s commitment to a completely free and open discussion of ideas."`,
