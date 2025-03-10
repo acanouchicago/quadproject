@@ -540,6 +540,28 @@ function createOverlayMapLayers(map) {
         }
     });
 
+    // Levi blue dot
+    map.addSource('Levi_blue', {
+        type: 'image',
+        url: './static/images/HBLOO.png',
+        coordinates: [
+            [-87.601062, 41.789721],
+            [-87.600792, 41.789721],
+            [-87.600792, 41.789518],
+            [-87.601062, 41.789518]
+        ]
+    });
+
+    map.addLayer({
+        id: 'Levi_blue',
+        type: 'raster',
+        source: 'Levi_blue',
+        paint: {
+            'raster-opacity': 0,
+            'raster-opacity-transition': { duration: 2000 }
+        }
+    });
+
     // urban renewal 1955
     map.addSource('south_campus_plan', {
         type: 'image',
@@ -1287,7 +1309,11 @@ function bodyWaypoints() {
         element: document.getElementById('3.1'),
         handler: function (direction) {
             if (direction == 'down') {
+                mapBody.setPaintProperty('Levi_blue', 'raster-opacity', 0.999);
+                flashingInterval = flashLayer(mapBody, 'Levi_blue', 500);
             } else {
+                clearInterval(flashingInterval);
+                mapBody.setPaintProperty('Levi_blue', 'raster-opacity', 0);
             }
         },
         offset: '50%'
@@ -1297,7 +1323,11 @@ function bodyWaypoints() {
         element: document.getElementById('3.2'),
         handler: function (direction) {
             if (direction == 'down') {
+                clearInterval(flashingInterval);
+                mapBody.setPaintProperty('Levi_blue', 'raster-opacity', 0);
             } else {
+                mapBody.setPaintProperty('Levi_blue', 'raster-opacity', 0.999);
+                flashingInterval = flashLayer(mapBody, 'Levi_blue', 500);
             }
         },
         offset: '50%'
