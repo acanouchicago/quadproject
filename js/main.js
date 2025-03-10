@@ -1329,13 +1329,6 @@ function bodyWaypoints() {
             if (direction == 'down') {
                 filterOpacity(mapBody, 'layerSlider', true);
                 filterOpacity(mapBody, 'layer2025', false);
-                // move up a little
-                mapBody.flyTo({
-                    center: hydeParkLocation,
-                    zoom: 13.5,
-                    bearing: 0,
-                    duration: zoomSpeed
-                });
                 // rm timeline and explore map button
                 document.getElementById('explore-nav').style.visibility =
                     'hidden';
@@ -1377,14 +1370,6 @@ function bodyWaypoints() {
                 yearSlider = document.getElementById('map-overlay-menu');
                 yearSlider.style.visibility = 'hidden';
                 yearSlider.style.opacity = 0;
-
-                // reset map
-                mapBody.flyTo({
-                    center: isMobile ? hydeParkLocation : hpLocationSide,
-                    zoom: 13.5,
-                    bearing: 0,
-                    duration: zoomSpeed
-                });
 
                 // disable popup
                 document.querySelector('#explore-button').dataset.active =
