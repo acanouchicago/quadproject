@@ -523,6 +523,10 @@ input[type='range'] {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.bloocolor {
+    background-color: rgba(3, 0, 182, 0.8);
+}
+
 .hScroller {
     background-color: hsla(0, 100%, 25%, 0.8);
     padding-block: 0.5px;

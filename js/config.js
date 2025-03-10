@@ -118,7 +118,7 @@ const config = [
             },
             {
                 id: '3.1',
-                text: `The decision to occupy the western side of the central quadrangle specifically was deliberate and symbolic. Not only was the encampment occupying a central and historic part of the UChicago campus, it was also strategically located right in front of University administration in adjacent Edward H. Levi Hall. This increased the occupation’s visibility, making it impossible for administrators to ignore. Similar strategic choices informed the occupation of Zuccotti Park during Occupy Wall Street due to its proximity to financial institutions, and Tahrir Square during Egypt’s 2011 revolution due to its central civic significance to Cairo. In each of these instances, symbolic resonance has been vital in further amplifying the messages of protestors.`,
+                text: `The decision to occupy the western side of the central quadrangle specifically was deliberate and symbolic. Not only was the encampment occupying a central and historic part of the UChicago campus, it was also strategically located right in front of University administration in adjacent <span class="highlight bloocolor">Edward H. Levi Hall</span>. This increased the occupation’s visibility, making it impossible for administrators to ignore. Similar strategic choices informed the occupation of Zuccotti Park during Occupy Wall Street due to its proximity to financial institutions, and Tahrir Square during Egypt’s 2011 revolution due to its central civic significance to Cairo. In each of these instances, symbolic resonance has been vital in further amplifying the messages of protestors.`,
                 quote: '',
                 quoteAuthor:
                     '',
