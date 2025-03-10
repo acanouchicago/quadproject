@@ -104,31 +104,6 @@ const config = [
                 The UChicago quadrangles have long been a staging ground for student activism, testing the university’s longstanding commitment to free expression. Notable protests include a 1962 sit-in (led by future U.S. senator Bernie Sanders) protesting housing segregation, a major 1969 sit-in protesting faculty firing practices, and a 2016 protest demanding a trauma center for the South Side community. Each of these disruptions redefined the boundaries of acceptable action on campus, setting precedents that would influence future demonstrations, such as the 2024 Gaza solidarity encampment (<a href='https://chicagomaroon.com/22421/grey-city/history-disrupting-peace/' target = "_blank">Chicago Maroon</a>). `,
                 image: './static/images/60_quad_protest.jpg',
                 image_credit: 'University of Chicago Photographic Archive, 1969'
-            },
-            {
-                id: '3.2',
-                text: `The decision to occupy the western side of the central quadrangle specifically was deliberate and symbolic. Not only was the encampment occupying a central and historic part of the UChicago campus, it was also strategically located right in front of University administration in adjacent Edward H. Levi Hall. This increased the occupation’s visibility, making it impossible for administrators to ignore. Similar strategic choices informed the occupation of Zuccotti Park during Occupy Wall Street due to its proximity to financial institutions, and Tahrir Square during Egypt’s 2011 revolution due to its central civic significance to Cairo. In each of these instances, symbolic resonance has been vital in further amplifying the messages of protestors.`,
-            },
-            {
-                id: '3.3',
-                text: `The Hyde Park A + B plan began in 1954. The Land Clearance Commission, a city agency, approved a plan to clear and redevelop approximately 48 acres of land. The intent was to replace “blighted” residences and businesses with groups of similar townhouses along both sides of 55th Street, the twin towers of I. M. Pei’s University Apartments in the middle of 55th Street, and a shopping center at 55th Street and Lake Park Avenue.`,
-                image: './static/images/placeholder.jpg',
-                image_credit:
-                    'View of 55th St from Lake Park Blvd in 1950 and 1961<br>University of Chicago Photographic Archive'
-            },
-            {
-                id: '3.4',
-                text: `
-                Next, the Southwest Hyde Park Redevelopment Corporation used the <a href = "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2841&context=uclrev" target = "_blank">Neighborhood Redevelopment Corporation Act</a> to have the city acquire any privately owned land between the campus and Washington Park. Most of that area was marked for “rehabilitation.” The area from 55th to 56th Streets and from Cottage Grove to Ellis Avenues was slated for wholesale demolition and University acquisition.`
-            },
-            {
-                id: '3.5',
-                text: `The largest and most comprehensive phase was the Hyde Park-Kenwood Urban Renewal Plan, drawn up and approved in 1958. The University, through the SECC, was a main plan drafter. The plan focused on both total and “spot” clearance. It slated 638 structures containing 6,147 dwelling units for demolition and called for the creation and modernization of low- and high-density residential areas, parks, schools, residential and commercial areas, and more in their place.`
-            },
-            {
-                id: '3.6',
-                text: `
-                Finally, the University followed through on a suggestion in the 1949 Treasurer’s Report for the University to acquire all property in the strip of land from 60th to 61st Streets and from Cottage Grove to Stony Island Avenues to create a buffer zone between the campus and the “<a href = "https://cegu.uchicago.edu/2023/11/30/university-led-renewal/" target="_blank">deteriorating neighborhood</a>” of Woodlawn immediately to the South. The city purchased everything not yet owned by the University and then sold it to the University in a process that took a decade due to legal disputes and activist groups opposing the acquisition and the expansion. Notably, <a href = "https://www.wttw.com/dusable-to-obama/woodlawn-organization" target = "_blank">The Woodlawn Organization (T.W.O.)</a> successfully prevented the University from expanding further southward than 61st Street.`
             }
         ]
     },
@@ -176,6 +151,32 @@ const config = [
             {
                 id: '4.7',
                 text: `The creation of a private campus shuttle system, an expanded patrol area for UCPD, the EAHP, and the consolidation of student amenities all contributed to creating what Eldred termed “invisible borders” around campus during the second half of the 20th century.`
+            }
+        ]
+    },
+    {
+        chapterTitle: '2007-2022: Expansion and Turning to the City',
+        chapterYears: '2007-2022',
+        id: '5',
+        image: './static/images/chapter5.jpg',
+
+        img_credit: 'UChicago Arts',
+        subsections: [
+            {
+                id: '5.1',
+                text: `
+                In 2006, University President Zimmer made his "<a href = "https://d3qi0qp55mx5f5.cloudfront.net/convocation/docs/zimmer.pdf?mtime=1517338474" target = "_blank">Back to the City</a>" speech, posing the question: “How should our relationship with the South Side community, city, and the region evolve?” In the following years, the University simultaneously sought to shrink its portfolio of residential properties acquired during Urban Renewal and the <a href = "https://chicagomaroon.com/20278/news/univ-to-sell-21-residential-properties-in-hyde-park/" target = "_blank">Great Recession</a> and expand non-residential real estate holdings.`
+            },
+            {
+                id: '5.2',
+                text: `The University <span class="highlight former">sold</span> over 1,200 apartment units and four lots in Hyde Park between 2004 and 2016 and has bought 26 mixed-use properties in Washington Park since 2008. They acquired commercial real estate, such as Harper Court in 2008 and the building now containing Jewel Osco, in 2020. Currently, the University owns the buildings containing four of the major grocery stores in the area.`
+            },
+            {
+                id: '5.3',
+                text: `
+                The University also invested in cultural development throughout the South Side through a partnership with the Hyde Park Arts Center, stewarding the Washington Park <a href = 'https://news.uchicago.edu/story/arts-lawn-community-centered-space-washington-park-celebrates-opening' target = "_blank">Arts Block</a> and opening the <a href = 'https://news.uchicago.edu/story/uchicago-opens-green-line-performing-arts-center-washington-park' target = "_blank">Green Line Performing Arts Center</a> in 2018.`,
+                image: './static/images/arts_block.jpg',
+                image_credit: 'Visual Manifesto'
             },
             {
                 id: 'final-scroller',
