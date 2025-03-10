@@ -162,9 +162,9 @@ const config = [
             {
                 id: '3.6',
                 text: `
-                Cumulatively, these plans called for the demolition of 193 acres (20 percent of Hyde Park); cost $120 million ($1.4 billion when adjusted for inflation), approximately half of which was public funds and the other half private; displaced more than 30,000 people; and enabled the University of Chicago to add 41 acres of land to its campus. The campaign was a success, according to the administration. Documented by Levi, it became a model for other institutions, such as <a href = "https://projects.browndailyherald.com/2022/12/13/brown-property-footprint/" target = "_blank">Brown University</a> in the 1960s and <a href = "https://www.theguardian.com/cities/2018/apr/18/gentrify-or-die-inside-a-universitys-controversial-plan-for-baltimore" target = "_blank">Johns Hopkins</a> in the 2010s.`,
-                quote: `"The Chicago Association of Industry Tuesday endorsed a 50-acre redevelopment project for the Hyde Park area. The association said that the project, planned by the South East Chicago Commission, 'may well become a model for similar urban renewal in other sections of the city.'"`,
-                quoteAuthor: '<i>Chicago Daily News</i>, 1954',
+                The encampment directly challenged the University’s  longstanding commitment to neutrality and free speech enshrined in its <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/KalvenRprt_0.pdf' target = "_blank">1967 Kalven Report</a> and the <a href='https://provost.uchicago.edu/sites/default/files/documents/reports/FOECommitteeReport.pdf' target = "_blank">2014 “Chicago principles” report</a>, leading to widespread debate over whether the encampment constituted disruptive speech or protected political expression (<a href='https://www.nytimes.com/2024/05/06/us/university-of-chicago-protests-encampment.html' target = "_blank">The New York Times</a>).`,
+                quote: `"...the University may reasonably regulate the time, place, and manner of expression to ensure that it does not disrupt the ordinary activities of the University. But these are narrow exceptions to the general principle of freedom of expression, and it is vitally important that these exceptions never be used in a manner that is inconsistent with the University’s commitment to a completely free and open discussion of ideas."`,
+                quoteAuthor: '<i>Report of the Committee on Freedom of Expression</i>, 2014',
                 quoteSource: ''
             }
         ]
