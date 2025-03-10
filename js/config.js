@@ -103,9 +103,9 @@ const config = [
                 id: '3.0',
                 text: `
                 The UChicago quadrangles have long been a staging ground for student activism, testing the university’s longstanding commitment to free expression. Notable protests include a 1962 sit-in (led by future U.S. senator Bernie Sanders) protesting housing segregation, a major 1969 sit-in protesting faculty firing practices, and a 2016 protest demanding a trauma center for the South Side community. Each of these disruptions redefined the boundaries of acceptable action on campus, setting precedents that would influence future demonstrations, such as the 2024 Gaza solidarity encampment (<a href='https://chicagomaroon.com/22421/grey-city/history-disrupting-peace/' target = "_blank">Chicago Maroon</a>). `,
-                image: './static/images/charles_visit.jpg',
+                image: './static/images/60s_quad_protest.jpg',
                 image_credit:
-                    'University of Chicago Photographic Archive, 1977'
+                    'University of Chicago Photographic Archive, 1969'
             },
             {
                 id: '3.0a',
