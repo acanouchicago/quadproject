@@ -106,12 +106,6 @@ const config = [
                 image_credit: 'University of Chicago Photographic Archive, 1969'
             },
             {
-                id: '3.1',
-                text: `On April 29, 2024, following other protests across the United States in support of Gazans in their conflict with Israel, approximately 100 students set up about 20 tents on the western side of the Main Quadrangles, establishing the “UChicago Popular University for Gaza” encampment. The protestors demanded the university divest from companies connected to Israeli weapons manufacturers. The encampment quickly expanded, growing into a lively space of political education, debate, and communal solidarity as students vowed to remain until their demands were met (<a href='https://chicagomaroon.com/42199/news/live-updates-pro-palestine-encampment-on-quad/' target = "_blank">Chicago Maroon</a>).`,
-                image: './static/images/day1_encamp.jpg',
-                image_credit: 'Chicago Maroon'
-            }, 
-            {
                 id: '3.2',
                 text: `The decision to occupy the western side of the central quadrangle specifically was deliberate and symbolic. Not only was the encampment occupying a central and historic part of the UChicago campus, it was also strategically located right in front of University administration in adjacent Edward H. Levi Hall. This increased the occupation’s visibility, making it impossible for administrators to ignore. Similar strategic choices informed the occupation of Zuccotti Park during Occupy Wall Street due to its proximity to financial institutions, and Tahrir Square during Egypt’s 2011 revolution due to its central civic significance to Cairo. In each of these instances, symbolic resonance has been vital in further amplifying the messages of protestors.`,
             },
